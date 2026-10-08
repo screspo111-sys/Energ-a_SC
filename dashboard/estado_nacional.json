@@ -1,0 +1,240 @@
+{
+ "rotulo": "Datos públicos; SCADA preliminar de CENACE (sujeto a revisión)",
+ "generado": "2026-10-07T22:04-05:00",
+ "fecha_dia_operativo": "2026-10-06",
+ "fuente_diaria": "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm",
+ "consultado": "2026-10-07T22:04:00-05:00",
+ "generacion_MWh": {
+  "hidraulica": {
+   "MWh": 77991.0,
+   "pct": 75.02
+  },
+  "termica": {
+   "MWh": 25358.0,
+   "pct": 24.39,
+   "detalle": {
+    "combustibles_liquidos_MCI_turbovapor": 22541.0,
+    "gas_natural": 2816.0
+   }
+  },
+  "renovable_no_convencional": {
+   "MWh": 567.0,
+   "pct": 0.55,
+   "nota": "CENACE publica a diario solo el total RNC (eólica+solar+biomasa+biogás)."
+  },
+  "desglose_RNC_estimado_dia_MWh": {
+   "valores": {
+    "eolica": 227,
+    "fotovoltaica": 24,
+    "biomasa": 274,
+    "biogas": 43
+   },
+   "metodo": "Total RNC del día × participación de cada tecnología en 2026-07 (CENACE indicadores). ESTIMADO, no dato diario.",
+   "mes_referencia": "2026-07",
+   "mes_GWh": {
+    "eolica": {
+     "GWh": 25.25,
+     "pct_de_RNC": 40.0
+    },
+    "fotovoltaica": {
+     "GWh": 2.7,
+     "pct_de_RNC": 4.3
+    },
+    "biomasa": {
+     "GWh": 30.5,
+     "pct_de_RNC": 48.3
+    },
+    "biogas": {
+     "GWh": 4.75,
+     "pct_de_RNC": 7.5
+    }
+   }
+  },
+  "importacion": 51.0,
+  "exportacion": 79.0,
+  "produccion_total_incl_importacion": 103966.0
+ },
+ "demanda": {
+  "energia_MWh": 103887.0,
+  "definicion": "Producción total (incluye importación) − exportación",
+  "max_MW": 5268.38,
+  "hora_max": "19:30",
+  "min_MW": 3465.26
+ },
+ "estatal_vs_privada": {
+  "diario": {
+   "hidro_CELEC_identificada_MWh": 59251.0,
+   "pct_produccion": 56.99,
+   "centrales": [
+    "Coca Codo",
+    "Paute",
+    "Sopladora",
+    "Mazar",
+    "Minas San Francisco",
+    "Agoyán",
+    "San Francisco",
+    "Delsitanisagua"
+   ],
+   "nota": "Piso, no total: suma de las centrales hidro de CELEC EP que CENACE nombra en su reporte diario. «Otras hidro», térmica y RNC mezclan CELEC y privadas; CENACE no publica la propiedad a diario."
+  },
+  "anual_CELEC_EP_2025": {
+   "energia_neta_GWh": 28040.0,
+   "aporte_demanda_nacional_pct": 84.0,
+   "resto_pct": 16.0,
+   "nota": "El 16 % restante (complemento) incluye generadoras privadas y mixtas, autogeneradoras, distribuidoras e importaciones; no es solo «privadas».",
+   "fuente": "https://www.celec.gob.ec/transelectric/wp-content/uploads/2026/05/RD2025-convertido.pdf",
+   "fecha": "año 2025"
+  },
+  "ARCONEL_por_tipo_de_empresa_2025": {
+   "nota": "ARCONEL clasifica por TIPO de empresa (generadora/autogeneradora/distribuidora), no por propiedad pública/privada.",
+   "produccion_SNI_pct": {
+    "generadoras": 89.97,
+    "autogeneradoras": 7.76,
+    "distribuidoras": 2.26
+   },
+   "potencia_nominal_MW": {
+    "generadoras": 7413.91,
+    "autogeneradoras": 1826.72,
+    "distribuidoras": 208.2,
+    "total": 9448.83
+   },
+   "potencia_efectiva_MW": {
+    "generadoras": 7192.79,
+    "autogeneradoras": 1490.67,
+    "distribuidoras": 195.92,
+    "total": 8879.39
+   },
+   "fuente": "https://arconel.gob.ec/wp-content/uploads/downloads/2026/03/Estadistica2025.pdf (tablas 21–23 y sección 2.5.1)",
+   "fecha": "año 2025"
+  }
+ },
+ "capacidad_instalada_BNEE": {
+  "fecha": "julio 2026 (potencia nominal mensual; producción = año móvil ago-2025–jul-2026)",
+  "fuente": "https://arconel.gob.ec/wp-content/uploads/downloads/2026/10/BNEE_julio_2026.xls",
+  "por_tecnologia": {
+   "Nacional (Renovable + No Renovable)": {
+    "potencia_nominal_total_MW": 9529.79,
+    "potencia_nominal_SNI_MW": 8064.7,
+    "produccion_anio_movil_GWh": 40726.9,
+    "produccion_anio_movil_SNI_GWh": 36213.0
+   },
+   "Renovable": {
+    "potencia_nominal_total_MW": 5641.31,
+    "potencia_nominal_SNI_MW": 5628.79,
+    "produccion_anio_movil_GWh": 29475.7,
+    "produccion_anio_movil_SNI_GWh": 29463.6
+   },
+   "Hidráulica": {
+    "potencia_nominal_total_MW": 5373.86,
+    "potencia_nominal_SNI_MW": 5370.66,
+    "produccion_anio_movil_GWh": 28823.8,
+    "produccion_anio_movil_SNI_GWh": 28818.9
+   },
+   "Eólica": {
+    "potencia_nominal_total_MW": 71.15,
+    "potencia_nominal_SNI_MW": 66.5,
+    "produccion_anio_movil_GWh": 199.3,
+    "produccion_anio_movil_SNI_GWh": 197.4
+   },
+   "Fotovoltaica": {
+    "potencia_nominal_total_MW": 29.13,
+    "potencia_nominal_SNI_MW": 24.46,
+    "produccion_anio_movil_GWh": 38.6,
+    "produccion_anio_movil_SNI_GWh": 33.3
+   },
+   "Biomasa": {
+    "potencia_nominal_total_MW": 156.05,
+    "potencia_nominal_SNI_MW": 156.05,
+    "produccion_anio_movil_GWh": 360.7,
+    "produccion_anio_movil_SNI_GWh": 360.7
+   },
+   "Biogas": {
+    "potencia_nominal_total_MW": 11.12,
+    "potencia_nominal_SNI_MW": 11.12,
+    "produccion_anio_movil_GWh": 53.2,
+    "produccion_anio_movil_SNI_GWh": 53.2
+   },
+   "No Renovable": {
+    "potencia_nominal_total_MW": 3888.49,
+    "potencia_nominal_SNI_MW": 2435.91,
+    "produccion_anio_movil_GWh": 11251.2,
+    "produccion_anio_movil_SNI_GWh": 6749.4
+   },
+   "MCI": {
+    "potencia_nominal_total_MW": 2467.65,
+    "potencia_nominal_SNI_MW": 1154.75,
+    "produccion_anio_movil_GWh": 7848.9,
+    "produccion_anio_movil_SNI_GWh": 3714.0
+   },
+   "Turbogas": {
+    "potencia_nominal_total_MW": 960.71,
+    "potencia_nominal_SNI_MW": 836.66,
+    "produccion_anio_movil_GWh": 1557.0,
+    "produccion_anio_movil_SNI_GWh": 1198.0
+   },
+   "Turbovapor": {
+    "potencia_nominal_total_MW": 460.13,
+    "potencia_nominal_SNI_MW": 444.5,
+    "produccion_anio_movil_GWh": 1845.2,
+    "produccion_anio_movil_SNI_GWh": 1837.3
+   },
+   "Importación": {
+    "potencia_nominal_total_MW": 650.0,
+    "potencia_nominal_SNI_MW": 650.0,
+    "produccion_anio_movil_GWh": 456.6,
+    "produccion_anio_movil_SNI_GWh": 456.6
+   },
+   "Colombia": {
+    "potencia_nominal_total_MW": 540.0,
+    "potencia_nominal_SNI_MW": 540.0,
+    "produccion_anio_movil_GWh": 456.6,
+    "produccion_anio_movil_SNI_GWh": 456.6
+   },
+   "Perú": {
+    "potencia_nominal_total_MW": 110.0,
+    "potencia_nominal_SNI_MW": 110.0,
+    "produccion_anio_movil_GWh": 0.0,
+    "produccion_anio_movil_SNI_GWh": 0.0
+   }
+  }
+ },
+ "RES": {
+  "respuesta_corta": "En la normativa ecuatoriana no existe una sigla oficial «RES». Lo que CENACE y ARCONEL usan es «reserva» (margen de reserva, reserva rodante, reserva fría) y, para renovables, «renovable no convencional» (RNC/ERNC). Si «RES» se refiere a la reserva de generación, sí aplica a Ecuador.",
+  "reserva": {
+   "definiciones": [
+    {
+     "termino": "Margen de reserva",
+     "texto": "Mínimo = el mayor valor entre la unidad más grande del sistema y la importación comprometida, más la reserva fría establecida. CENACE programa mantenimientos para que la reserva supere este margen en las horas de demanda máxima.",
+     "fuente": "https://arconel.gob.ec/wp-content/uploads/downloads/2025/01/ProcedimientosDespacho.pdf (Regulación CONELEC 006/00, num. 4.3.3)"
+    },
+    {
+     "termino": "Reserva rodante",
+     "texto": "Capacidad disponible de las unidades sincronizadas menos la demanda (incluidas pérdidas de transmisión).",
+     "fuente": "https://arconel.gob.ec/wp-content/uploads/downloads/2024/08/Reg-ARCERNNR-001-24.pdf"
+    },
+    {
+     "termino": "Criterio de planificación",
+     "texto": "CENACE pide mantener reservas del 10 % con 90 % de probabilidad de excedencia; para el estiaje sep-2025–mar-2026 estimó que faltaban 430 MW firmes para cumplirlo.",
+     "fuente": "https://arconel.gob.ec/wp-content/uploads/downloads/2025/05/Resolucion-nro.-ARCONEL-004-25.pdf"
+    }
+   ],
+   "calculo_hoy": {
+    "fecha": "2026-10-06",
+    "demanda_max_MW": 5268.38,
+    "potencia_nominal_SNI_MW": 8064.7,
+    "importacion_nominal_MW": 650.0,
+    "margen_reserva_nominal_pct": 53.1,
+    "margen_reserva_nominal_con_importacion_pct": 65.4,
+    "formula": "(potencia nominal SNI − demanda máxima del día) / demanda máxima del día",
+    "advertencia": "Es un TECHO teórico: CENACE no publica la potencia DISPONIBLE diaria. La disponible real es menor por mantenimientos, térmicas indisponibles y, sobre todo, por falta de agua en las hidroeléctricas. No equivale a la reserva operativa de CENACE."
+   }
+  },
+  "renovables": {
+   "texto": "CENACE llama «R. no convencional» a eólica, solar, biomasa y biogás; la hidroeléctrica también es renovable pero se reporta aparte.",
+   "hoy_MWh": 567.0,
+   "hoy_pct": 0.55,
+   "renovable_total_incl_hidro_pct": 75.56,
+   "fuente": "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm"
+  }
+ }
+}

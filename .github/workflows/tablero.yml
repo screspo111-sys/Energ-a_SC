@@ -1,0 +1,67 @@
+name: Tablero de electricidad
+
+on:
+  schedule:
+    # Cada hora, pasado el minuto 17. El archivo tiene que estar en main.
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: tablero-paginas
+  cancel-in-progress: false
+
+jobs:
+  construir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Código
+        uses: actions/checkout@v4
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Dependencias
+        run: pip install -r requirements.txt
+
+      - name: Recolectar, calcular y armar la página
+        run: bash dashboard/scripts/actualizar_tablero_energia.sh
+
+      - name: Cifrar
+        env:
+          DASHBOARD_PASSWORD: ${{ secrets.DASHBOARD_PASSWORD }}
+        run: bash dashboard/scripts/cifrar_pagina.sh
+
+      - name: Subir solo el HTML cifrado
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Guardar historia si cambió
+        run: |
+          if python dashboard/scripts/hay_historia_nueva.py; then
+            bash dashboard/scripts/guardar_historia.sh
+          else
+            echo "Los datos de fondo no cambiaron; no se hace commit."
+          fi
+
+  desplegar:
+    needs: construir
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Configurar Pages
+        uses: actions/configure-pages@v5
+      - name: Publicar
+        id: deployment
+        uses: actions/deploy-pages@v4

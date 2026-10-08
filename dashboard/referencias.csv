@@ -1,0 +1,25 @@
+clave,valor,unidad,fuente,nota
+capacidad_instalada_CELEC_SUR_MW,2027,MW,https://www.celec.gob.ec/celecsur/produccion-en-linea-detalle/,Texto institucional: Mazar+Molino+Sopladora+MSF suman 2027 MW
+capacidad_instalada_MAZAR_MW,170,MW,https://www.celec.gob.ec/celecsur/,Banner home CELEC SUR: GENERACIÓN 170 MW (Central Paute MAZAR)
+capacidad_instalada_MOLINO_MW,1100,MW,https://www.celec.gob.ec/celecsur/,Banner home CELEC SUR: GENERACIÓN 1100 MW (Central Paute MOLINO)
+capacidad_instalada_SOPLADORA_MW,487,MW,https://www.celec.gob.ec/celecsur/informacion-tecnica/central-hidroelectrica-paute-sopladora/,Ficha técnica: potencia de la Central es 487 MW
+capacidad_instalada_MSF_MW,270,MW,https://www.celec.gob.ec/celecsur/informacion-tecnica/central-hidroelectrica-minas-san-francisco/,Ficha técnica: potencia instalada de 270 MW
+cota_operacion_MAZAR_min_msnm,2098,m s.n.m.,https://www.celec.gob.ec/celecsur/informacion-tecnica/central-hidroelectrica-paute-mazar/,Cota mínima de operación 2.098 msnm; UI graficasproduccion título Cota Mazar min:2098
+cota_operacion_MAZAR_max_msnm,2153,m s.n.m.,https://www.celec.gob.ec/celecsur/informacion-tecnica/central-hidroelectrica-paute-mazar/,Cota máxima de operación 2.153 msnm; UI título max:2153
+cota_AMALUZA_MOLINO_min_msnm_UI,1975,m s.n.m.,https://generacioncsr.celec.gob.ec/graficasproduccion/ (bundle main.js título Cota Amaluza),UI: min:1975 max:1991; ficha Molino menciona nivel máximo normal 1991 m.s.n.m.
+cota_AMALUZA_MOLINO_max_msnm,1991,m s.n.m.,https://www.celec.gob.ec/celecsur/informacion-tecnica/central-hidroelectrica-paute-molino/,Nivel máximo normal 1.991 m.s.n.m.; UI max:1991
+cota_SOPLADORA_min_msnm_UI,1312,m s.n.m.,https://generacioncsr.celec.gob.ec/graficasproduccion/ (bundle main.js título Cota Sopladora),UI: min:1312 max:1318
+cota_SOPLADORA_max_msnm_UI,1318,m s.n.m.,https://generacioncsr.celec.gob.ec/graficasproduccion/ (bundle main.js título Cota Sopladora),"UI: min:1312 max:1318; ficha menciona Máximo maximorum cámara 1318,14"
+cota_MSF_min_msnm_UI,783.33,m s.n.m.,https://generacioncsr.celec.gob.ec/graficasproduccion/ (bundle main.js título Cota Minas San Francisco),UI: min:783.33 max:792.86
+cota_MSF_max_msnm_UI,792.86,m s.n.m.,https://generacioncsr.celec.gob.ec/graficasproduccion/ (bundle main.js título Cota Minas San Francisco),UI: min:783.33 max:792.86
+mrid_caudal_MAZAR,30538,mrid,https://generacioncsr.celec.gob.ec:8443/ords/csr/sardomcsr/pointValues,Embebido en Angular bundle; endpoint pointValuesMesAvg
+mrid_cota_MAZAR,30031,mrid,https://generacioncsr.celec.gob.ec:8443/ords/csr/sardomcsr/pointValues,Embebido en Angular bundle
+mrid_caudal_MOLINO_Amaluza,24811,mrid,https://generacioncsr.celec.gob.ec:8443/ords/csr/sardomcsr/pointValues,UI etiqueta Caudal Amaluza
+mrid_cota_MOLINO_Amaluza,24019,mrid,https://generacioncsr.celec.gob.ec:8443/ords/csr/sardomcsr/pointValues,UI etiqueta Cota Amaluza
+mrid_caudal_SOPLADORA,90537,mrid,https://generacioncsr.celec.gob.ec:8443/ords/csr/sardomcsr/pointValues,
+mrid_cota_SOPLADORA,90919,mrid,https://generacioncsr.celec.gob.ec:8443/ords/csr/sardomcsr/pointValues,
+mrid_caudal_MSF,650538,mrid,https://generacioncsr.celec.gob.ec:8443/ords/csr/sardomcsr/pointValues,
+mrid_cota_MSF,650919,mrid,https://generacioncsr.celec.gob.ec:8443/ords/csr/sardomcsr/pointValues,
+mrid_caudal_CUENCA_PAUTE,24812,mrid,https://generacioncsr.celec.gob.ec:8443/ords/csr/sardomcsr/pointValues,También csrCaudCuenMesAvg (sin mrid) para promedio cuenca
+demanda_SNI_serie_compacta,,,http://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,NO incluida: CENACE Info Operativa es HTML/Plotly sin API REST; no hay serie de demanda en generacion_unificada.csv aparte de snapshot. No inventada.
+BNEE_potencia_nominal_sni_hidraulica_MW_julio_2026,5370.65801,MW,https://arconel.gob.ec/wp-content/uploads/downloads/2026/10/BNEE_julio_2026.xls,Desde generacion_unificada.csv / ARCONEL BNEE corte julio 2026
