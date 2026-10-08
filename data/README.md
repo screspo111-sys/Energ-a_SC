@@ -1,6 +1,6 @@
 # Ecuador — generación unificada
 
-Última actualización (local America/Guayaquil): **2026-10-07 22:04:01 -05**
+Última actualización (local America/Guayaquil): **2026-10-07 22:34:20 -05**
 
 ## Archivos
 
@@ -25,11 +25,11 @@ Columnas: fecha_hora_local, fecha_hora_utc, granularidad, ambito, codigo_planta,
 ```json
 {
   "CELEC_SUR_ORDS": {
-    "n_rows": 1665,
+    "n_rows": 1670,
     "requests_ok": 75,
     "requests_total": 75,
     "fecha_min": "2026-09-24T01:00:00-05:00",
-    "fecha_max": "2026-10-07T21:00:00-05:00",
+    "fecha_max": "2026-10-07T22:00:00-05:00",
     "failures": [],
     "plants": [
       "MAZAR",
@@ -43,7 +43,7 @@ Columnas: fecha_hora_local, fecha_hora_utc, granularidad, ambito, codigo_planta,
   "CENACE_indicadores": {
     "fuente": "CENACE_indicadores",
     "url": "https://www.cenace.gob.ec/wp-content/plugins/ez-addons/data/indicadores.xlsx",
-    "path": "/workspace/raw/indicadores.xlsx",
+    "path": "/home/runner/work/Energ-a_SC/Energ-a_SC/raw/indicadores.xlsx",
     "ok": true,
     "errors": [],
     "n_rows": 1444,
@@ -53,7 +53,7 @@ Columnas: fecha_hora_local, fecha_hora_utc, granularidad, ambito, codigo_planta,
   "ARCONEL_BNEE": {
     "fuente": "ARCONEL_BNEE",
     "url": "https://arconel.gob.ec/wp-content/uploads/downloads/2026/10/BNEE_julio_2026.xls",
-    "path": "/workspace/raw/BNEE_julio_2026.xls",
+    "path": "/home/runner/work/Energ-a_SC/Energ-a_SC/raw/BNEE_julio_2026.xls",
     "page": "https://arconel.gob.ec/balance-nacional-de-energia-electrica/",
     "ok": true,
     "errors": [],
@@ -69,15 +69,15 @@ Columnas: fecha_hora_local, fecha_hora_utc, granularidad, ambito, codigo_planta,
     "reason": "Page is Plotly-embedded (binary y/customdata); no stable public tabular API. Skipped numeric ingest; HTML snapshot optional.",
     "errors": [],
     "http_status": 200,
-    "bytes": 266317,
-    "sha256": "25528a9eaf81db916ec76d149c83fc6c982f0bc69f5dae0c5355b307ec1a9745",
-    "fetched_at_local": "2026-10-07T22:04:01-05:00",
+    "bytes": 266313,
+    "sha256": "56dd5b689c18f3b7afa6c5967c508f67d00c3f1fce91bfa546d418fc8400e423",
+    "fetched_at_local": "2026-10-07T22:34:19-05:00",
     "n_rows": 1
   }
 }
 ```
 
-Total filas unificadas: **5341**
+Total filas unificadas: **5347**
 
 ## Refresh diario
 
