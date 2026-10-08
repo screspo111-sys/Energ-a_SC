@@ -1,0 +1,75 @@
+{
+ "rotulo": "Estimación propia, no oficial",
+ "metodo": "Regresión logística (IRLS, L2 mínima) sobre cota Mazar, ln(afluente media 7 d), ln(mediana histórica del afluente de los 30 días siguientes, ±7 días del día del año). Etiqueta = apagones generalizados ese día o en los 30 siguientes.",
+ "coeficientes": {
+  "a": 506.64540253498944,
+  "b_cota": -0.2301791361107053,
+  "b_ln_q7": -2.218414799124967,
+  "b_ln_exp30": -2.5161839094528164
+ },
+ "periodos_apagon": [
+  {
+   "inicio": "2023-10-27",
+   "fin": "2023-12-15",
+   "fuente": "El Universo: racionamientos desde el 27-oct-2023, suspendidos el 15-dic-2023 https://www.eluniverso.com/noticias/economia/las-crisis-energeticas-que-vivio-ecuador-durante-los-ultimos-32-anos-nota/"
+  },
+  {
+   "inicio": "2024-04-16",
+   "fin": "2024-04-30",
+   "fuente": "El Universo (emergencia y cortes desde el 16-abr-2024) y Expreso (1-may-2024: se suspenden los cortes) https://www.expreso.ec/actualidad/cortes-luz-suspenden-5-mayo-2024-198707.html"
+  },
+  {
+   "inicio": "2024-09-23",
+   "fin": "2024-12-19",
+   "fuente": "El Universo: 23-sep al 19-dic-2024 (fin para hogares; industria hasta 31-dic) https://www.eluniverso.com/noticias/economia/fin-apagones-ecuador-crisis-energetica-cuantas-horas-sin-luz-2024-nota/"
+  }
+ ],
+ "n_dias_apagon": 153,
+ "n_entrenamiento": 1706,
+ "n_positivos": 243,
+ "ajuste_hasta": "2026-09-06",
+ "auc_en_muestra": 0.9823914443797485,
+ "precision_cuando_p_mayor_20": 0.7254901960784313,
+ "fecha_dato": "2026-10-06",
+ "prob_hoy": 0.187,
+ "cota_hoy": 2131.75,
+ "q7_hoy": 40.43,
+ "exp30_hoy": 39.02,
+ "primer_dia_mayor_50": {
+  "seco": {
+   "dias": 8,
+   "fecha": "2026-10-15"
+  },
+  "normal": {
+   "dias": 10,
+   "fecha": "2026-10-17"
+  },
+  "humedo": null,
+  "actual": {
+   "dias": 12,
+   "fecha": "2026-10-19"
+  }
+ },
+ "horizonte_dias": 45,
+ "validacion_ecuanomia": {
+  "fecha": "2026-10-06",
+  "cota": 2131.75,
+  "q7": 40.43,
+  "exp30": 39.02,
+  "prob_modelo_propio": 0.187,
+  "prob_coef_ecuanomia_con_nuestros_datos": 0.155,
+  "prob_publicada_ecuanomia": 0.21,
+  "fuente": "https://mazar.ecuanomia.com (data.json)"
+ },
+ "prob_max_45d": {
+  "seco": 0.9999,
+  "normal": 0.9856,
+  "humedo": 0.2351,
+  "actual": 0.9518
+ },
+ "limitaciones": [
+  "Solo 3 crisis (2023, abril 2024, sep–dic 2024) para aprender: muy pocos eventos, la probabilidad es orientativa.",
+  "Ajuste y métricas dentro de muestra (sin validación fuera de muestra).",
+  "No incluye Coca Codo, térmicas, importaciones ni decisiones del Gobierno; solo el estado hidrológico de Mazar."
+ ]
+}

@@ -1,0 +1,395 @@
+{
+ "titulo": "Días estimados hasta que Mazar llegue a la cota crítica (2115 m s.n.m.)",
+ "rotulo": "Estimación propia, no oficial",
+ "generado": "2026-10-07T22:04-05:00",
+ "escenario_kpi": "actual",
+ "dias": 31,
+ "fecha": "2026-11-07",
+ "tipo_plazo_principal": "mazar_cota_critica_2115",
+ "cota_critica": 2115.0,
+ "dias_2115": 31,
+ "fecha_2115": "2026-11-07",
+ "dias_mazar_min": null,
+ "fecha_mazar_min": null,
+ "dias_deficit": 32,
+ "fecha_deficit": "2026-11-08",
+ "semaforo": "amarillo",
+ "regla_semaforo": "Color según los días hasta que Mazar llegue a 2115 m (escenario caudal actual). Verde >60 d, amarillo 30–60 d, rojo <30 d.",
+ "semaforo_prudente": "rojo",
+ "horizonte_dias": 365,
+ "umbrales": {
+  "verde": ">60 días",
+  "amarillo": "30–60 días",
+  "rojo": "<30 días"
+ },
+ "dias_reserva": {
+  "descripcion": "Días de reserva antes de que los apagones sean probables",
+  "dias_hasta_2115": 31,
+  "fecha_2115": "2026-11-07",
+  "primer_dia_prob_mayor_50": {
+   "seco": {
+    "dias": 8,
+    "fecha": "2026-10-15"
+   },
+   "normal": {
+    "dias": 10,
+    "fecha": "2026-10-17"
+   },
+   "humedo": null,
+   "actual": {
+    "dias": 12,
+    "fecha": "2026-10-19"
+   }
+  }
+ },
+ "probabilidad_apagones": {
+  "rotulo": "Estimación propia, no oficial",
+  "metodo": "Regresión logística (IRLS, L2 mínima) sobre cota Mazar, ln(afluente media 7 d), ln(mediana histórica del afluente de los 30 días siguientes, ±7 días del día del año). Etiqueta = apagones generalizados ese día o en los 30 siguientes.",
+  "coeficientes": {
+   "a": 506.64540253498944,
+   "b_cota": -0.2301791361107053,
+   "b_ln_q7": -2.218414799124967,
+   "b_ln_exp30": -2.5161839094528164
+  },
+  "periodos_apagon": [
+   {
+    "inicio": "2023-10-27",
+    "fin": "2023-12-15",
+    "fuente": "El Universo: racionamientos desde el 27-oct-2023, suspendidos el 15-dic-2023 https://www.eluniverso.com/noticias/economia/las-crisis-energeticas-que-vivio-ecuador-durante-los-ultimos-32-anos-nota/"
+   },
+   {
+    "inicio": "2024-04-16",
+    "fin": "2024-04-30",
+    "fuente": "El Universo (emergencia y cortes desde el 16-abr-2024) y Expreso (1-may-2024: se suspenden los cortes) https://www.expreso.ec/actualidad/cortes-luz-suspenden-5-mayo-2024-198707.html"
+   },
+   {
+    "inicio": "2024-09-23",
+    "fin": "2024-12-19",
+    "fuente": "El Universo: 23-sep al 19-dic-2024 (fin para hogares; industria hasta 31-dic) https://www.eluniverso.com/noticias/economia/fin-apagones-ecuador-crisis-energetica-cuantas-horas-sin-luz-2024-nota/"
+   }
+  ],
+  "n_dias_apagon": 153,
+  "n_entrenamiento": 1706,
+  "n_positivos": 243,
+  "ajuste_hasta": "2026-09-06",
+  "auc_en_muestra": 0.9823914443797485,
+  "precision_cuando_p_mayor_20": 0.7254901960784313,
+  "fecha_dato": "2026-10-06",
+  "prob_hoy": 0.187,
+  "cota_hoy": 2131.75,
+  "q7_hoy": 40.43,
+  "exp30_hoy": 39.02,
+  "primer_dia_mayor_50": {
+   "seco": {
+    "dias": 8,
+    "fecha": "2026-10-15"
+   },
+   "normal": {
+    "dias": 10,
+    "fecha": "2026-10-17"
+   },
+   "humedo": null,
+   "actual": {
+    "dias": 12,
+    "fecha": "2026-10-19"
+   }
+  },
+  "horizonte_dias": 45,
+  "validacion_ecuanomia": {
+   "fecha": "2026-10-06",
+   "cota": 2131.75,
+   "q7": 40.43,
+   "exp30": 39.02,
+   "prob_modelo_propio": 0.187,
+   "prob_coef_ecuanomia_con_nuestros_datos": 0.155,
+   "prob_publicada_ecuanomia": 0.21,
+   "fuente": "https://mazar.ecuanomia.com (data.json)"
+  },
+  "prob_max_45d": {
+   "seco": 0.9999,
+   "normal": 0.9856,
+   "humedo": 0.2351,
+   "actual": 0.9518
+  },
+  "limitaciones": [
+   "Solo 3 crisis (2023, abril 2024, sep–dic 2024) para aprender: muy pocos eventos, la probabilidad es orientativa.",
+   "Ajuste y métricas dentro de muestra (sin validación fuera de muestra).",
+   "No incluye Coca Codo, térmicas, importaciones ni decisiones del Gobierno; solo el estado hidrológico de Mazar."
+  ]
+ },
+ "estado_actual": {
+  "fecha_hidro": "2026-10-06",
+  "cota_mazar": 2131.75,
+  "cota_critica": 2115.0,
+  "cota_min": 2098.0,
+  "cota_max": 2153.0,
+  "volumen_util_restante_hm3": 168.5,
+  "volumen_sobre_2115_hm3": 92.8,
+  "afluente_mazar_dia_m3s": 31.7,
+  "afluente_mazar_7d_m3s": 40.4,
+  "afluente_mazar_14d_m3s": 40.8,
+  "turbinado_mazar_14d_m3s": 68.5,
+  "tendencia_cota_m_dia_14d": -0.437,
+  "dias_a_min_por_tendencia": 77,
+  "dias_a_2115_por_tendencia": 38,
+  "fecha_cenace": "2026-10-06",
+  "demanda_base_MWh_dia": 98390,
+  "termica_actual_MWh_dia": 25358,
+  "termica_max_supuesta_MWh_dia": 33270,
+  "holgura_termica_MWh_dia": 7912,
+  "demanda_punta_max_MW": 5634.849999999999
+ },
+ "escenarios": {
+  "actual": {
+   "nombre": "Caudal actual",
+   "desc": "Afluente Mazar = media últimos 14 d (40.8 m³/s); resto hidro = nivel actual",
+   "dias_2115": 31,
+   "fecha_2115": "2026-11-07",
+   "dias_mazar_min": null,
+   "fecha_mazar_min": null,
+   "dias_deficit": 32,
+   "fecha_deficit": "2026-11-08"
+  },
+  "seco": {
+   "nombre": "Seco (P10)",
+   "desc": "Afluente Mazar = percentil 10 histórico 2022–2026 (±15 d); resto hidro = P10 mensual",
+   "dias_2115": 20,
+   "fecha_2115": "2026-10-27",
+   "dias_mazar_min": 49,
+   "fecha_mazar_min": "2026-11-25",
+   "dias_deficit": 7,
+   "fecha_deficit": "2026-10-14"
+  },
+  "estiaje_2024": {
+   "nombre": "Réplica estiaje 2024",
+   "desc": "Afluentes del mismo día de 2024 y resto hidro del mismo mes de 2024",
+   "dias_2115": 22,
+   "fecha_2115": "2026-10-29",
+   "dias_mazar_min": 57,
+   "fecha_mazar_min": "2026-12-03",
+   "dias_deficit": 7,
+   "fecha_deficit": "2026-10-14"
+  },
+  "normal": {
+   "nombre": "Normal (P50)",
+   "desc": "Afluente Mazar = mediana histórica 2022–2026 (±15 d); resto hidro = mediana mensual",
+   "dias_2115": 26,
+   "fecha_2115": "2026-11-02",
+   "dias_mazar_min": null,
+   "fecha_mazar_min": null,
+   "dias_deficit": 12,
+   "fecha_deficit": "2026-10-19"
+  },
+  "humedo": {
+   "nombre": "Húmedo (P85)",
+   "desc": "Afluente Mazar = percentil 85 (±15 d); resto hidro = P85 mensual",
+   "dias_2115": null,
+   "fecha_2115": null,
+   "dias_mazar_min": null,
+   "fecha_mazar_min": null,
+   "dias_deficit": null,
+   "fecha_deficit": null
+  }
+ },
+ "referencia_externa": {
+  "fuente": "Ecuanomía, https://mazar.ecuanomia.com",
+  "fecha_estimacion": "2026-10-06",
+  "texto": "Ecuanomía estimó el 6 de octubre de 2026: escenario normal, Mazar en 2115 m en 23 días (29 de octubre); escenario seco en 16 días (22 de octubre); probabilidad de apagones 21 %.",
+  "normal": {
+   "dias": 23,
+   "fecha": "2026-10-29"
+  },
+  "seco": {
+   "dias": 16,
+   "fecha": "2026-10-22"
+  },
+  "prob_apagones": 0.21
+ },
+ "supuestos": [
+  {
+   "clave": "cota_min_operativa_mazar",
+   "valor": 2098.0,
+   "unidad": "m s.n.m.",
+   "tipo": "DATO",
+   "fuente": "https://www.celec.gob.ec/celecsur/informacion-tecnica/central-hidroelectrica-paute-mazar/",
+   "nota": "Cota mínima de operación según ficha técnica CELEC SUR"
+  },
+  {
+   "clave": "eficiencia_mazar",
+   "valor": 0.9,
+   "unidad": "-",
+   "tipo": "SUPUESTO",
+   "fuente": "valor típico turbina+generador",
+   "nota": "Para convertir MWh de Mazar en caudal turbinado"
+  },
+  {
+   "clave": "curva_cota_volumen_mazar",
+   "valor": "empírica",
+   "unidad": "hm3/m por tramo",
+   "tipo": "ESTIMADO/SUPUESTO",
+   "fuente": "modelo/curva_mazar_empirica.csv",
+   "nota": "CELEC no publica la curva cota-volumen en las fuentes revisadas; se estimó con 2023–2026 (r≈0,9–0,98). Bajo ~2107 m se extrapola."
+  },
+  {
+   "clave": "k_molino_sopladora",
+   "valor": 237.49705013672556,
+   "unidad": "MWh/día por m3/s",
+   "tipo": "ESTIMADO",
+   "fuente": "https://generacioncsr.celec.gob.ec/graficasproduccion/ (ORDS generacioncsr.celec.gob.ec:8443/ords/csr)",
+   "nota": "Energía Molino+Sopladora / (turbinado Mazar + aporte intermedio cuenca Paute), 2023–2026"
+  },
+  {
+   "clave": "turbinado_mazar_politica",
+   "valor": 68.54087120774923,
+   "unidad": "m3/s",
+   "tipo": "SUPUESTO",
+   "fuente": "https://generacioncsr.celec.gob.ec/graficasproduccion/ (ORDS generacioncsr.celec.gob.ec:8443/ords/csr)",
+   "nota": "Se mantiene el turbinado medio de Mazar de los últimos 14 días (derivado de energía y salto)"
+  },
+  {
+   "clave": "transicion_escenarios",
+   "valor": 14,
+   "unidad": "días",
+   "tipo": "SUPUESTO",
+   "fuente": "propio",
+   "nota": "Los escenarios seco/normal/húmedo/2024 pasan linealmente del caudal actual al del escenario en 14 días"
+  },
+  {
+   "clave": "caudal_afluente_mazar_actual",
+   "valor": 40.84961161830099,
+   "unidad": "m3/s",
+   "tipo": "DATO",
+   "fuente": "https://generacioncsr.celec.gob.ec/graficasproduccion/ (ORDS generacioncsr.celec.gob.ec:8443/ords/csr)",
+   "nota": "Promedio 2026-09-23–2026-10-06"
+  },
+  {
+   "clave": "resto_hidro_actual",
+   "valor": 46915.0,
+   "unidad": "MWh/día",
+   "tipo": "DATO",
+   "fuente": "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm",
+   "nota": "Hidráulica SNI − Paute − Sopladora − Mazar, día 2026-10-06 (incluye Coca Codo 19157 MWh)"
+  },
+  {
+   "clave": "resto_hidro_mensual_hist",
+   "valor": "2023-01–2026-07",
+   "unidad": "MWh/día",
+   "tipo": "DATO",
+   "fuente": "CENACE indicadores (hidro mensual) − CELEC SUR (Mazar+Molino+Sopladora)",
+   "nota": "P10/P85 por mes calendario con 3–4 años: P10≈mínimo (2024)"
+  },
+  {
+   "clave": "termica_max_disponible",
+   "valor": 33270.184990619025,
+   "unidad": "MWh/día",
+   "tipo": "SUPUESTO",
+   "fuente": "CENACE indicadores (máximo mensual observado: 2024-11)",
+   "nota": "No hay serie pública de potencia térmica DISPONIBLE; se usa la energía térmica media diaria máxima lograda (nov-2024). Nominal SNI térmica BNEE jul-2026 = 2436 MW (MCI 1155 + turbogas 837 + turbovapor 445)."
+  },
+  {
+   "clave": "termica_actual",
+   "valor": 25358.0,
+   "unidad": "MWh/día",
+   "tipo": "DATO",
+   "fuente": "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm",
+   "nota": "día 2026-10-06"
+  },
+  {
+   "clave": "importacion_disponible",
+   "valor": 1250.8337068493151,
+   "unidad": "MWh/día",
+   "tipo": "SUPUESTO",
+   "fuente": "https://arconel.gob.ec/wp-content/uploads/downloads/2026/10/BNEE_julio_2026.xls",
+   "nota": "Media del año móvil a jul-2026 (456,6 GWh/año, Colombia). Capacidad nominal enlaces 650 MW pero la disponibilidad depende de Colombia/Perú."
+  },
+  {
+   "clave": "renovable_no_conv",
+   "valor": 567.0,
+   "unidad": "MWh/día",
+   "tipo": "DATO",
+   "fuente": "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm",
+   "nota": "Eólica+solar+biomasa+biogás, último día"
+  },
+  {
+   "clave": "minas_san_francisco",
+   "valor": 1870.0,
+   "unidad": "MWh/día",
+   "tipo": "DATO (incluido en resto hidro)",
+   "fuente": "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm",
+   "nota": ""
+  },
+  {
+   "clave": "demanda_base",
+   "valor": 98390.16666666669,
+   "unidad": "MWh/día",
+   "tipo": "DATO",
+   "fuente": "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm",
+   "nota": "Media del mes a la fecha (hasta 2026-10-06), producción − exportación"
+  },
+  {
+   "clave": "estacionalidad_demanda",
+   "valor": "0.968;1.001;1.050;1.061;1.039;0.996;0.988;0.982;0.970;0.959;0.984;1.001",
+   "unidad": "factor mes 1..12",
+   "tipo": "ESTIMADO",
+   "fuente": "CENACE indicadores",
+   "nota": "Media de (mes/promedio anual) en 2018,2019,2021,2022,2023,2025 (excluye 2020 pandemia y 2024 cortes)"
+  },
+  {
+   "clave": "crecimiento_demanda_anual",
+   "valor": 0.0826288823005632,
+   "unidad": "fracción/año",
+   "tipo": "ESTIMADO",
+   "fuente": "CENACE Info Operativa vs indicadores",
+   "nota": "Mes a la fecha vs mismo mes del año anterior"
+  },
+  {
+   "clave": "cota_critica_mazar",
+   "valor": 2115.0,
+   "unidad": "m s.n.m.",
+   "tipo": "SUPUESTO (referencia histórica)",
+   "fuente": "https://mazar.ecuanomia.com ; datos CELEC SUR 2023–2024",
+   "nota": "Umbral PRINCIPAL de cortes: en 2023 y 2024, al cruzar ~2115 m CELEC redujo el turbinado de Mazar y siguieron los racionamientos. No es una cota oficial."
+  },
+  {
+   "clave": "turbinado_bajo_cota_critica",
+   "valor": 35.0,
+   "unidad": "m3/s",
+   "tipo": "SUPUESTO",
+   "fuente": "https://mazar.ecuanomia.com (mismo supuesto) ; operación observada 2023–2024",
+   "nota": "Bajo 2115 m el turbinado de Mazar se limita a 35 m³/s (como hizo CELEC en 2023–2024). Menos turbinado = menos energía en Paute."
+  },
+  {
+   "clave": "prob_apagones_etiquetas",
+   "valor": "2023-10-27→2023-12-15; 2024-04-16→2024-04-30; 2024-09-23→2024-12-19",
+   "unidad": "periodos",
+   "tipo": "DATO (prensa)",
+   "fuente": "El Universo / Expreso (ver modelo/logit_coeficientes.json)",
+   "nota": "Días con apagones/racionamientos generalizados usados para etiquetar 2022–2026 (etiqueta = ese día o en los 30 siguientes)"
+  },
+  {
+   "clave": "prob_apagones_modelo",
+   "valor": "logit(cota, ln q7, ln exp30)",
+   "unidad": "-",
+   "tipo": "ESTIMADO",
+   "fuente": "modelo/logit_coeficientes.json",
+   "nota": "Regresión logística ajustada con 1706 días (243 positivos) hasta 2026-09-06; mismo diseño que Ecuanomía. Solo 3 crisis: orientativo."
+  }
+ ],
+ "fuentes": [
+  "https://generacioncsr.celec.gob.ec/graficasproduccion/ (ORDS generacioncsr.celec.gob.ec:8443/ords/csr)",
+  "https://www.celec.gob.ec/celecsur/informacion-tecnica/central-hidroelectrica-paute-mazar/",
+  "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm",
+  "https://arconel.gob.ec/wp-content/uploads/downloads/2026/10/BNEE_julio_2026.xls",
+  "CENACE indicadores XLSX (energía mensual por tecnología)",
+  "https://mazar.ecuanomia.com (referencia y supuestos 2115 m / 35 m³/s)"
+ ],
+ "limitaciones": [
+  "Balance diario de ENERGÍA; no modela restricciones de punta, transmisión ni mantenimientos.",
+  "2115 m es un umbral de referencia histórica (2023–2024), no una cota oficial; la mínima técnica es 2098 m.",
+  "Bajo 2115 m se supone turbinado de 35 m³/s; el operador real puede decidir otra cosa.",
+  "Térmica disponible real (operativa) no es pública: se usa el máximo mensual logrado (SUPUESTO).",
+  "Coca Codo y demás hidro de filo de agua: solo energía diaria CENACE (sin caudal público); escenarios por percentiles mensuales.",
+  "CENACE Info Operativa no publica histórico diario; la serie diaria se acumula desde 2026-10-07 con cada corrida.",
+  "Turbinado de Mazar sobre 2115 m = política reciente (14 d); el operador puede ahorrar agua (alarga días) o turbinar más (acorta)."
+ ]
+}

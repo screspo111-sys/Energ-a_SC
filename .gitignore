@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.staticrypt.json
+site/
+public/
+raw/
+dashboard/raw/
+dashboard/frescura.json
+*.log
