@@ -1,3 +1,4 @@
 fecha_corrida,semaforo,semaforo_prudente,dias_deficit_actual,fecha_deficit_actual,dias_deficit_seco,fecha_deficit_seco,dias_mazar_min_actual,cota_mazar,fecha_hidro,umbral_principal,dias_2115_actual,fecha_2115_actual,dias_2115_seco,fecha_2115_seco,prob_apagones
 2026-10-07,amarillo,rojo,145,2027-03-01,8,2026-10-15,49.0,2131.66,2026-10-04,2098.0,,,,,
 2026-10-07,amarillo,rojo,32,2026-11-08,7,2026-10-14,,2131.75,2026-10-06,2115.0,31.0,2026-11-07,20.0,2026-10-27,0.187
+2026-10-08,rojo,rojo,30,2026-11-07,6,2026-10-14,,2130.74,2026-10-07,2115.0,29.0,2026-11-06,19.0,2026-10-27,0.23

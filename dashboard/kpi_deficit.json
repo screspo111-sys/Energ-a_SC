@@ -1,19 +1,19 @@
 {
  "titulo": "Días estimados hasta que Mazar llegue a la cota crítica (2115 m s.n.m.)",
  "rotulo": "Estimación propia, no oficial",
- "generado": "2026-10-07T23:34-05:00",
+ "generado": "2026-10-08T00:34-05:00",
  "escenario_kpi": "actual",
- "dias": 31,
- "fecha": "2026-11-07",
+ "dias": 29,
+ "fecha": "2026-11-06",
  "tipo_plazo_principal": "mazar_cota_critica_2115",
  "cota_critica": 2115.0,
- "dias_2115": 31,
- "fecha_2115": "2026-11-07",
+ "dias_2115": 29,
+ "fecha_2115": "2026-11-06",
  "dias_mazar_min": null,
  "fecha_mazar_min": null,
- "dias_deficit": 32,
- "fecha_deficit": "2026-11-08",
- "semaforo": "amarillo",
+ "dias_deficit": 30,
+ "fecha_deficit": "2026-11-07",
+ "semaforo": "rojo",
  "regla_semaforo": "Color según los días hasta que Mazar llegue a 2115 m (escenario caudal actual). Verde >60 d, amarillo 30–60 d, rojo <30 d.",
  "semaforo_prudente": "rojo",
  "horizonte_dias": 365,
@@ -24,21 +24,21 @@
  },
  "dias_reserva": {
   "descripcion": "Días de reserva antes de que los apagones sean probables",
-  "dias_hasta_2115": 31,
-  "fecha_2115": "2026-11-07",
+  "dias_hasta_2115": 29,
+  "fecha_2115": "2026-11-06",
   "primer_dia_prob_mayor_50": {
    "seco": {
-    "dias": 8,
+    "dias": 7,
     "fecha": "2026-10-15"
    },
    "normal": {
-    "dias": 10,
-    "fecha": "2026-10-17"
+    "dias": 8,
+    "fecha": "2026-10-16"
    },
    "humedo": null,
    "actual": {
-    "dias": 12,
-    "fecha": "2026-10-19"
+    "dias": 10,
+    "fecha": "2026-10-18"
    }
   }
  },
@@ -46,10 +46,10 @@
   "rotulo": "Estimación propia, no oficial",
   "metodo": "Regresión logística (IRLS, L2 mínima) sobre cota Mazar, ln(afluente media 7 d), ln(mediana histórica del afluente de los 30 días siguientes, ±7 días del día del año). Etiqueta = apagones generalizados ese día o en los 30 siguientes.",
   "coeficientes": {
-   "a": 506.64540253498944,
-   "b_cota": -0.2301791361107053,
-   "b_ln_q7": -2.218414799124967,
-   "b_ln_exp30": -2.5161839094528164
+   "a": 505.72656626757913,
+   "b_cota": -0.2297580193903727,
+   "b_ln_q7": -2.231180009964612,
+   "b_ln_exp30": -2.498718804715245
   },
   "periodos_apagon": [
    {
@@ -69,29 +69,29 @@
    }
   ],
   "n_dias_apagon": 153,
-  "n_entrenamiento": 1706,
+  "n_entrenamiento": 1707,
   "n_positivos": 243,
-  "ajuste_hasta": "2026-09-06",
-  "auc_en_muestra": 0.9823914443797485,
+  "ajuste_hasta": "2026-09-07",
+  "auc_en_muestra": 0.982358496930446,
   "precision_cuando_p_mayor_20": 0.7254901960784313,
-  "fecha_dato": "2026-10-06",
-  "prob_hoy": 0.187,
-  "cota_hoy": 2131.75,
-  "q7_hoy": 40.43,
-  "exp30_hoy": 39.02,
+  "fecha_dato": "2026-10-07",
+  "prob_hoy": 0.23,
+  "cota_hoy": 2130.74,
+  "q7_hoy": 39.59,
+  "exp30_hoy": 39.29,
   "primer_dia_mayor_50": {
    "seco": {
-    "dias": 8,
+    "dias": 7,
     "fecha": "2026-10-15"
    },
    "normal": {
-    "dias": 10,
-    "fecha": "2026-10-17"
+    "dias": 8,
+    "fecha": "2026-10-16"
    },
    "humedo": null,
    "actual": {
-    "dias": 12,
-    "fecha": "2026-10-19"
+    "dias": 10,
+    "fecha": "2026-10-18"
    }
   },
   "horizonte_dias": 45,
@@ -108,8 +108,8 @@
   "prob_max_45d": {
    "seco": 0.9999,
    "normal": 0.9856,
-   "humedo": 0.2351,
-   "actual": 0.9518
+   "humedo": 0.311,
+   "actual": 0.9577
   },
   "limitaciones": [
    "Solo 3 crisis (2023, abril 2024, sep–dic 2024) para aprender: muy pocos eventos, la probabilidad es orientativa.",
@@ -118,20 +118,20 @@
   ]
  },
  "estado_actual": {
-  "fecha_hidro": "2026-10-06",
-  "cota_mazar": 2131.75,
+  "fecha_hidro": "2026-10-07",
+  "cota_mazar": 2130.74,
   "cota_critica": 2115.0,
   "cota_min": 2098.0,
   "cota_max": 2153.0,
-  "volumen_util_restante_hm3": 168.5,
-  "volumen_sobre_2115_hm3": 92.8,
-  "afluente_mazar_dia_m3s": 31.7,
-  "afluente_mazar_7d_m3s": 40.4,
-  "afluente_mazar_14d_m3s": 40.8,
-  "turbinado_mazar_14d_m3s": 68.5,
-  "tendencia_cota_m_dia_14d": -0.437,
-  "dias_a_min_por_tendencia": 77,
-  "dias_a_2115_por_tendencia": 38,
+  "volumen_util_restante_hm3": 161.8,
+  "volumen_sobre_2115_hm3": 86.1,
+  "afluente_mazar_dia_m3s": 23.0,
+  "afluente_mazar_7d_m3s": 39.6,
+  "afluente_mazar_14d_m3s": 40.0,
+  "turbinado_mazar_14d_m3s": 66.8,
+  "tendencia_cota_m_dia_14d": -0.383,
+  "dias_a_min_por_tendencia": 85,
+  "dias_a_2115_por_tendencia": 41,
   "fecha_cenace": "2026-10-06",
   "demanda_base_MWh_dia": 98390,
   "termica_actual_MWh_dia": 25358,
@@ -142,43 +142,43 @@
  "escenarios": {
   "actual": {
    "nombre": "Caudal actual",
-   "desc": "Afluente Mazar = media últimos 14 d (40.8 m³/s); resto hidro = nivel actual",
-   "dias_2115": 31,
-   "fecha_2115": "2026-11-07",
+   "desc": "Afluente Mazar = media últimos 14 d (40.0 m³/s); resto hidro = nivel actual",
+   "dias_2115": 29,
+   "fecha_2115": "2026-11-06",
    "dias_mazar_min": null,
    "fecha_mazar_min": null,
-   "dias_deficit": 32,
-   "fecha_deficit": "2026-11-08"
+   "dias_deficit": 30,
+   "fecha_deficit": "2026-11-07"
   },
   "seco": {
    "nombre": "Seco (P10)",
    "desc": "Afluente Mazar = percentil 10 histórico 2022–2026 (±15 d); resto hidro = P10 mensual",
-   "dias_2115": 20,
+   "dias_2115": 19,
    "fecha_2115": "2026-10-27",
    "dias_mazar_min": 49,
-   "fecha_mazar_min": "2026-11-25",
-   "dias_deficit": 7,
+   "fecha_mazar_min": "2026-11-26",
+   "dias_deficit": 6,
    "fecha_deficit": "2026-10-14"
   },
   "estiaje_2024": {
    "nombre": "Réplica estiaje 2024",
    "desc": "Afluentes del mismo día de 2024 y resto hidro del mismo mes de 2024",
-   "dias_2115": 22,
+   "dias_2115": 21,
    "fecha_2115": "2026-10-29",
-   "dias_mazar_min": 57,
+   "dias_mazar_min": 56,
    "fecha_mazar_min": "2026-12-03",
-   "dias_deficit": 7,
+   "dias_deficit": 6,
    "fecha_deficit": "2026-10-14"
   },
   "normal": {
    "nombre": "Normal (P50)",
    "desc": "Afluente Mazar = mediana histórica 2022–2026 (±15 d); resto hidro = mediana mensual",
-   "dias_2115": 26,
+   "dias_2115": 25,
    "fecha_2115": "2026-11-02",
    "dias_mazar_min": null,
    "fecha_mazar_min": null,
    "dias_deficit": 12,
-   "fecha_deficit": "2026-10-19"
+   "fecha_deficit": "2026-10-20"
   },
   "humedo": {
    "nombre": "Húmedo (P85)",
@@ -232,7 +232,7 @@
   },
   {
    "clave": "k_molino_sopladora",
-   "valor": 237.49705013672556,
+   "valor": 237.51531423853388,
    "unidad": "MWh/día por m3/s",
    "tipo": "ESTIMADO",
    "fuente": "https://generacioncsr.celec.gob.ec/graficasproduccion/ (ORDS generacioncsr.celec.gob.ec:8443/ords/csr)",
@@ -240,7 +240,7 @@
   },
   {
    "clave": "turbinado_mazar_politica",
-   "valor": 68.54087120774923,
+   "valor": 66.81328008168708,
    "unidad": "m3/s",
    "tipo": "SUPUESTO",
    "fuente": "https://generacioncsr.celec.gob.ec/graficasproduccion/ (ORDS generacioncsr.celec.gob.ec:8443/ords/csr)",
@@ -256,11 +256,11 @@
   },
   {
    "clave": "caudal_afluente_mazar_actual",
-   "valor": 40.84961161830099,
+   "valor": 39.96423933371765,
    "unidad": "m3/s",
    "tipo": "DATO",
    "fuente": "https://generacioncsr.celec.gob.ec/graficasproduccion/ (ORDS generacioncsr.celec.gob.ec:8443/ords/csr)",
-   "nota": "Promedio 2026-09-23–2026-10-06"
+   "nota": "Promedio 2026-09-24–2026-10-07"
   },
   {
    "clave": "resto_hidro_actual",
@@ -372,7 +372,7 @@
    "unidad": "-",
    "tipo": "ESTIMADO",
    "fuente": "modelo/logit_coeficientes.json",
-   "nota": "Regresión logística ajustada con 1706 días (243 positivos) hasta 2026-09-06; mismo diseño que Ecuanomía. Solo 3 crisis: orientativo."
+   "nota": "Regresión logística ajustada con 1707 días (243 positivos) hasta 2026-09-07; mismo diseño que Ecuanomía. Solo 3 crisis: orientativo."
   }
  ],
  "fuentes": [
