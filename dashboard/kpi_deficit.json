@@ -1,7 +1,7 @@
 {
  "titulo": "Días estimados hasta que Mazar llegue a la cota crítica (2115 m s.n.m.)",
  "rotulo": "Estimación propia, no oficial",
- "generado": "2026-10-08T12:34-05:00",
+ "generado": "2026-10-08T13:38-05:00",
  "escenario_kpi": "actual",
  "dias": 29,
  "fecha": "2026-11-06",
@@ -132,11 +132,11 @@
   "tendencia_cota_m_dia_14d": -0.383,
   "dias_a_min_por_tendencia": 85,
   "dias_a_2115_por_tendencia": 41,
-  "fecha_cenace": "2026-10-06",
-  "demanda_base_MWh_dia": 98390,
-  "termica_actual_MWh_dia": 25358,
+  "fecha_cenace": "2026-10-07",
+  "demanda_base_MWh_dia": 99135,
+  "termica_actual_MWh_dia": 24110,
   "termica_max_supuesta_MWh_dia": 33270,
-  "holgura_termica_MWh_dia": 7912,
+  "holgura_termica_MWh_dia": 9160,
   "demanda_punta_max_MW": 5634.849999999999
  },
  "escenarios": {
@@ -177,8 +177,8 @@
    "fecha_2115": "2026-11-02",
    "dias_mazar_min": null,
    "fecha_mazar_min": null,
-   "dias_deficit": 12,
-   "fecha_deficit": "2026-10-20"
+   "dias_deficit": 11,
+   "fecha_deficit": "2026-10-19"
   },
   "humedo": {
    "nombre": "Húmedo (P85)",
@@ -264,11 +264,11 @@
   },
   {
    "clave": "resto_hidro_actual",
-   "valor": 46915.0,
+   "valor": 47841.0,
    "unidad": "MWh/día",
    "tipo": "DATO",
    "fuente": "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm",
-   "nota": "Hidráulica SNI − Paute − Sopladora − Mazar, día 2026-10-06 (incluye Coca Codo 19157 MWh)"
+   "nota": "Hidráulica SNI − Paute − Sopladora − Mazar, día 2026-10-07 (incluye Coca Codo 19048 MWh)"
   },
   {
    "clave": "resto_hidro_mensual_hist",
@@ -288,11 +288,11 @@
   },
   {
    "clave": "termica_actual",
-   "valor": 25358.0,
+   "valor": 24110.0,
    "unidad": "MWh/día",
    "tipo": "DATO",
    "fuente": "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm",
-   "nota": "día 2026-10-06"
+   "nota": "día 2026-10-07"
   },
   {
    "clave": "importacion_disponible",
@@ -304,7 +304,7 @@
   },
   {
    "clave": "renovable_no_conv",
-   "valor": 567.0,
+   "valor": 632.0,
    "unidad": "MWh/día",
    "tipo": "DATO",
    "fuente": "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm",
@@ -312,7 +312,7 @@
   },
   {
    "clave": "minas_san_francisco",
-   "valor": 1870.0,
+   "valor": 1693.0,
    "unidad": "MWh/día",
    "tipo": "DATO (incluido en resto hidro)",
    "fuente": "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm",
@@ -320,11 +320,11 @@
   },
   {
    "clave": "demanda_base",
-   "valor": 98390.16666666669,
+   "valor": 99135.42857142857,
    "unidad": "MWh/día",
    "tipo": "DATO",
    "fuente": "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm",
-   "nota": "Media del mes a la fecha (hasta 2026-10-06), producción − exportación"
+   "nota": "Media del mes a la fecha (hasta 2026-10-07), producción − exportación"
   },
   {
    "clave": "estacionalidad_demanda",
@@ -336,7 +336,7 @@
   },
   {
    "clave": "crecimiento_demanda_anual",
-   "valor": 0.0826288823005632,
+   "valor": 0.09082931624948642,
    "unidad": "fracción/año",
    "tipo": "ESTIMADO",
    "fuente": "CENACE Info Operativa vs indicadores",

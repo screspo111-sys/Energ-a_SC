@@ -6,16 +6,16 @@ k_molino_sopladora,237.51531423853388,MWh/día por m3/s,ESTIMADO,https://generac
 turbinado_mazar_politica,66.81328008168708,m3/s,SUPUESTO,https://generacioncsr.celec.gob.ec/graficasproduccion/ (ORDS generacioncsr.celec.gob.ec:8443/ords/csr),Se mantiene el turbinado medio de Mazar de los últimos 14 días (derivado de energía y salto)
 transicion_escenarios,14,días,SUPUESTO,propio,Los escenarios seco/normal/húmedo/2024 pasan linealmente del caudal actual al del escenario en 14 días
 caudal_afluente_mazar_actual,39.96423933371765,m3/s,DATO,https://generacioncsr.celec.gob.ec/graficasproduccion/ (ORDS generacioncsr.celec.gob.ec:8443/ords/csr),Promedio 2026-09-24–2026-10-07
-resto_hidro_actual,46915.0,MWh/día,DATO,https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,"Hidráulica SNI − Paute − Sopladora − Mazar, día 2026-10-06 (incluye Coca Codo 19157 MWh)"
+resto_hidro_actual,47841.0,MWh/día,DATO,https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,"Hidráulica SNI − Paute − Sopladora − Mazar, día 2026-10-07 (incluye Coca Codo 19048 MWh)"
 resto_hidro_mensual_hist,2023-01–2026-07,MWh/día,DATO,CENACE indicadores (hidro mensual) − CELEC SUR (Mazar+Molino+Sopladora),P10/P85 por mes calendario con 3–4 años: P10≈mínimo (2024)
 termica_max_disponible,33270.184990619025,MWh/día,SUPUESTO,CENACE indicadores (máximo mensual observado: 2024-11),No hay serie pública de potencia térmica DISPONIBLE; se usa la energía térmica media diaria máxima lograda (nov-2024). Nominal SNI térmica BNEE jul-2026 = 2436 MW (MCI 1155 + turbogas 837 + turbovapor 445).
-termica_actual,25358.0,MWh/día,DATO,https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,día 2026-10-06
+termica_actual,24110.0,MWh/día,DATO,https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,día 2026-10-07
 importacion_disponible,1250.8337068493151,MWh/día,SUPUESTO,https://arconel.gob.ec/wp-content/uploads/downloads/2026/10/BNEE_julio_2026.xls,"Media del año móvil a jul-2026 (456,6 GWh/año, Colombia). Capacidad nominal enlaces 650 MW pero la disponibilidad depende de Colombia/Perú."
-renovable_no_conv,567.0,MWh/día,DATO,https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,"Eólica+solar+biomasa+biogás, último día"
-minas_san_francisco,1870.0,MWh/día,DATO (incluido en resto hidro),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,
-demanda_base,98390.16666666669,MWh/día,DATO,https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,"Media del mes a la fecha (hasta 2026-10-06), producción − exportación"
+renovable_no_conv,632.0,MWh/día,DATO,https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,"Eólica+solar+biomasa+biogás, último día"
+minas_san_francisco,1693.0,MWh/día,DATO (incluido en resto hidro),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,
+demanda_base,99135.42857142857,MWh/día,DATO,https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,"Media del mes a la fecha (hasta 2026-10-07), producción − exportación"
 estacionalidad_demanda,0.968;1.001;1.050;1.061;1.039;0.996;0.988;0.982;0.970;0.959;0.984;1.001,factor mes 1..12,ESTIMADO,CENACE indicadores,"Media de (mes/promedio anual) en 2018,2019,2021,2022,2023,2025 (excluye 2020 pandemia y 2024 cortes)"
-crecimiento_demanda_anual,0.0826288823005632,fracción/año,ESTIMADO,CENACE Info Operativa vs indicadores,Mes a la fecha vs mismo mes del año anterior
+crecimiento_demanda_anual,0.09082931624948642,fracción/año,ESTIMADO,CENACE Info Operativa vs indicadores,Mes a la fecha vs mismo mes del año anterior
 cota_critica_mazar,2115.0,m s.n.m.,SUPUESTO (referencia histórica),https://mazar.ecuanomia.com ; datos CELEC SUR 2023–2024,"Umbral PRINCIPAL de cortes: en 2023 y 2024, al cruzar ~2115 m CELEC redujo el turbinado de Mazar y siguieron los racionamientos. No es una cota oficial."
 turbinado_bajo_cota_critica,35.0,m3/s,SUPUESTO,https://mazar.ecuanomia.com (mismo supuesto) ; operación observada 2023–2024,Bajo 2115 m el turbinado de Mazar se limita a 35 m³/s (como hizo CELEC en 2023–2024). Menos turbinado = menos energía en Paute.
 prob_apagones_etiquetas,2023-10-27→2023-12-15; 2024-04-16→2024-04-30; 2024-09-23→2024-12-19,periodos,DATO (prensa),El Universo / Expreso (ver modelo/logit_coeficientes.json),Días con apagones/racionamientos generalizados usados para etiquetar 2022–2026 (etiqueta = ese día o en los 30 siguientes)
