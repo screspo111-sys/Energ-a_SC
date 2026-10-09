@@ -1,12 +1,12 @@
 {
-  "updated_at_local": "2026-10-09 02:35:49 -05",
-  "n_rows": 5525,
+  "updated_at_local": "2026-10-09 03:36:24 -05",
+  "n_rows": 5529,
   "csv": "data/generacion_unificada.csv",
   "parquet": "data/generacion_unificada.parquet",
   "meta_json": "data/collect_meta.json",
   "sources": {
     "CELEC_SUR_ORDS": {
-      "n_rows": 1700,
+      "n_rows": 1703,
       "requests_ok": 75,
       "requests_total": 75,
       "fecha_min": "2026-09-25T01:00:00-05:00",
@@ -51,8 +51,8 @@
       "errors": [],
       "http_status": 200,
       "bytes": 266624,
-      "sha256": "ab861a03afc5818988557bbb7e7ad34bcfe749fde7a73d616d46a6023e85742c",
-      "fetched_at_local": "2026-10-09T02:35:49-05:00",
+      "sha256": "1c917d4e68436eebd243cc58602e330d68a55e4066704da7e6118e50315de01e",
+      "fetched_at_local": "2026-10-09T03:36:23-05:00",
       "n_rows": 1
     }
   },
