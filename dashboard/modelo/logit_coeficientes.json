@@ -2,10 +2,10 @@
  "rotulo": "Estimación propia, no oficial",
  "metodo": "Regresión logística (IRLS, L2 mínima) sobre cota Mazar, ln(afluente media 7 d), ln(mediana histórica del afluente de los 30 días siguientes, ±7 días del día del año). Etiqueta = apagones generalizados ese día o en los 30 siguientes.",
  "coeficientes": {
-  "a": 505.726566267579,
-  "b_cota": -0.22975801939037266,
-  "b_ln_q7": -2.231180009964612,
-  "b_ln_exp30": -2.4987188047152444
+  "a": 504.99794273785596,
+  "b_cota": -0.22942641505762856,
+  "b_ln_q7": -2.2421390253990965,
+  "b_ln_exp30": -2.48292396376198
  },
  "periodos_apagon": [
   {
@@ -25,29 +25,29 @@
   }
  ],
  "n_dias_apagon": 153,
- "n_entrenamiento": 1707,
+ "n_entrenamiento": 1708,
  "n_positivos": 243,
- "ajuste_hasta": "2026-09-07",
- "auc_en_muestra": 0.982358496930446,
+ "ajuste_hasta": "2026-09-08",
+ "auc_en_muestra": 0.9823396396016798,
  "precision_cuando_p_mayor_20": 0.7254901960784313,
- "fecha_dato": "2026-10-07",
- "prob_hoy": 0.23,
- "cota_hoy": 2130.74,
- "q7_hoy": 39.59,
- "exp30_hoy": 39.29,
+ "fecha_dato": "2026-10-08",
+ "prob_hoy": 0.309,
+ "cota_hoy": 2129.28,
+ "q7_hoy": 38.46,
+ "exp30_hoy": 39.17,
  "primer_dia_mayor_50": {
   "seco": {
-   "dias": 7,
-   "fecha": "2026-10-15"
+   "dias": 3,
+   "fecha": "2026-10-12"
   },
   "normal": {
-   "dias": 8,
-   "fecha": "2026-10-16"
+   "dias": 4,
+   "fecha": "2026-10-13"
   },
   "humedo": null,
   "actual": {
-   "dias": 10,
-   "fecha": "2026-10-18"
+   "dias": 6,
+   "fecha": "2026-10-15"
   }
  },
  "horizonte_dias": 45,
@@ -56,16 +56,16 @@
   "cota": 2131.75,
   "q7": 40.43,
   "exp30": 39.02,
-  "prob_modelo_propio": 0.187,
+  "prob_modelo_propio": 0.186,
   "prob_coef_ecuanomia_con_nuestros_datos": 0.155,
   "prob_publicada_ecuanomia": 0.21,
   "fuente": "https://mazar.ecuanomia.com (data.json)"
  },
  "prob_max_45d": {
   "seco": 0.9999,
-  "normal": 0.9856,
-  "humedo": 0.311,
-  "actual": 0.9577
+  "normal": 0.987,
+  "humedo": 0.431,
+  "actual": 0.9596
  },
  "limitaciones": [
   "Solo 3 crisis (2023, abril 2024, sep–dic 2024) para aprender: muy pocos eventos, la probabilidad es orientativa.",
