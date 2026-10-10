@@ -1,6 +1,6 @@
 # Ecuador — generación unificada
 
-Última actualización (local America/Guayaquil): **2026-10-10 12:30:29 -05**
+Última actualización (local America/Guayaquil): **2026-10-10 13:35:53 -05**
 
 ## Archivos
 
@@ -25,7 +25,7 @@ Columnas: fecha_hora_local, fecha_hora_utc, granularidad, ambito, codigo_planta,
 ```json
 {
   "CELEC_SUR_ORDS": {
-    "n_rows": 1746,
+    "n_rows": 1749,
     "requests_ok": 75,
     "requests_total": 75,
     "fecha_min": "2026-09-26T01:00:00-05:00",
@@ -51,8 +51,15 @@ Columnas: fecha_hora_local, fecha_hora_utc, granularidad, ambito, codigo_planta,
     "fecha_max": "2026-07-01T00:00:00-05:00"
   },
   "ARCONEL_BNEE": {
-    "ok": false,
-    "error": "503 Server Error: Service Unavailable for url: https://arconel.gob.ec/balance-nacional-de-energia-electrica/"
+    "fuente": "ARCONEL_BNEE",
+    "url": "https://arconel.gob.ec/wp-content/uploads/downloads/2026/10/BNEE_julio_2026.xls",
+    "path": "/home/runner/work/Energ-a_SC/Energ-a_SC/raw/BNEE_julio_2026.xls",
+    "page": "https://arconel.gob.ec/balance-nacional-de-energia-electrica/",
+    "ok": true,
+    "errors": [],
+    "titulo": "Balance Nacional de Energía Eléctrica (BNEE) - Año móvil con corte a julio 2026 (1)",
+    "corte": "julio_2026",
+    "n_rows": 70
   },
   "CENACE_InfoOperativa": {
     "fuente": "CENACE_InfoOperativa",
@@ -62,15 +69,15 @@ Columnas: fecha_hora_local, fecha_hora_utc, granularidad, ambito, codigo_planta,
     "reason": "Page is Plotly-embedded (binary y/customdata); no stable public tabular API. Skipped numeric ingest; HTML snapshot optional.",
     "errors": [],
     "http_status": 200,
-    "bytes": 266471,
-    "sha256": "498363ffa7f271a043e0a2c0e27d780955c3ab9fc4fdc7520607955f43e0462d",
-    "fetched_at_local": "2026-10-10T12:30:29-05:00",
+    "bytes": 266454,
+    "sha256": "386e66b5a2f502ad8c057cde88b34772cca8ec0aad0b28b571c1dd4a3c7c8048",
+    "fetched_at_local": "2026-10-10T13:35:53-05:00",
     "n_rows": 1
   }
 }
 ```
 
-Total filas unificadas: **5725**
+Total filas unificadas: **5729**
 
 ## Refresh diario
 
