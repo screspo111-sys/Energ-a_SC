@@ -1,4 +1,4 @@
 fecha,hidraulica_MWh,termica_MWh,termica_combustibles_liquidos_MWh,termica_gas_natural_MWh,renovable_no_convencional_MWh,importacion_MWh,exportacion_MWh,produccion_total_MWh,demanda_energia_MWh,demanda_max_MW,hora_demanda_max,demanda_min_MW,hidro_CELEC_identificada_MWh,otras_hidro_MWh,consultado,fuente
 2026-10-05,75717.0,26193.0,23371.0,2822.0,643.0,83.0,72.0,102636.0,102564.0,5221.97,19:30,3334.3,56013.0,19704.0,2026-10-07T08:46:00-05:00,https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm
 2026-10-06,77991.0,25358.0,22541.0,2816.0,567.0,51.0,79.0,103966.0,103887.0,5268.38,19:30,3465.26,59251.0,18740.0,2026-10-08T12:34:00-05:00,https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm
-2026-10-07,78817.0,24110.0,21329.0,2781.0,632.0,148.0,101.0,103708.0,103607.0,5134.04,19:30,3491.1299999999997,58915.0,19903.0,2026-10-10T07:38:00-05:00,https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm
+2026-10-07,78817.0,24110.0,21329.0,2781.0,632.0,148.0,101.0,103708.0,103607.0,5134.04,19:30,3491.1299999999997,58915.0,19903.0,2026-10-10T08:33:00-05:00,https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm
