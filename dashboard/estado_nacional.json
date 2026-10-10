@@ -1,9 +1,9 @@
 {
  "rotulo": "Datos públicos; SCADA preliminar de CENACE (sujeto a revisión)",
- "generado": "2026-10-10T10:31-05:00",
+ "generado": "2026-10-10T11:32-05:00",
  "fecha_dia_operativo": "2026-10-07",
  "fuente_diaria": "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm",
- "consultado": "2026-10-10T10:31:00-05:00",
+ "consultado": "2026-10-10T11:32:00-05:00",
  "generacion_MWh": {
   "hidraulica": {
    "MWh": 78817.0,
