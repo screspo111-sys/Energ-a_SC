@@ -1,33 +1,33 @@
 {
  "rotulo": "Datos públicos; SCADA preliminar de CENACE (sujeto a revisión)",
- "generado": "2026-10-11T09:33-05:00",
- "fecha_dia_operativo": "2026-10-07",
+ "generado": "2026-10-11T10:32-05:00",
+ "fecha_dia_operativo": "2026-10-09",
  "fuente_diaria": "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm",
- "consultado": "2026-10-11T09:33:00-05:00",
+ "consultado": "2026-10-11T10:32:00-05:00",
  "generacion_MWh": {
   "hidraulica": {
-   "MWh": 78817.0,
-   "pct": 76.0
+   "MWh": 77949.0,
+   "pct": 78.92
   },
   "termica": {
-   "MWh": 24110.0,
-   "pct": 23.25,
+   "MWh": 19926.0,
+   "pct": 20.17,
    "detalle": {
-    "combustibles_liquidos_MCI_turbovapor": 21329.0,
-    "gas_natural": 2781.0
+    "combustibles_liquidos_MCI_turbovapor": 18390.0,
+    "gas_natural": 1536.0
    }
   },
   "renovable_no_convencional": {
-   "MWh": 632.0,
-   "pct": 0.61,
+   "MWh": 810.0,
+   "pct": 0.82,
    "nota": "CENACE publica a diario solo el total RNC (eólica+solar+biomasa+biogás)."
   },
   "desglose_RNC_estimado_dia_MWh": {
    "valores": {
-    "eolica": 253,
-    "fotovoltaica": 27,
-    "biomasa": 305,
-    "biogas": 47
+    "eolica": 324,
+    "fotovoltaica": 35,
+    "biomasa": 391,
+    "biogas": 61
    },
    "metodo": "Total RNC del día × participación de cada tecnología en 2026-07 (CENACE indicadores). ESTIMADO, no dato diario.",
    "mes_referencia": "2026-07",
@@ -50,21 +50,21 @@
     }
    }
   },
-  "importacion": 148.0,
-  "exportacion": 101.0,
-  "produccion_total_incl_importacion": 103708.0
+  "importacion": 90.0,
+  "exportacion": 78.0,
+  "produccion_total_incl_importacion": 98775.0
  },
  "demanda": {
-  "energia_MWh": 103607.0,
+  "energia_MWh": 98697.0,
   "definicion": "Producción total (incluye importación) − exportación",
-  "max_MW": 5134.04,
+  "max_MW": 4778.5,
   "hora_max": "19:30",
-  "min_MW": 3491.1299999999997
+  "min_MW": 3320.27
  },
  "estatal_vs_privada": {
   "diario": {
-   "hidro_CELEC_identificada_MWh": 58915.0,
-   "pct_produccion": 56.81,
+   "hidro_CELEC_identificada_MWh": 56998.0,
+   "pct_produccion": 57.7,
    "centrales": [
     "Coca Codo",
     "Paute",
@@ -219,21 +219,21 @@
     }
    ],
    "calculo_hoy": {
-    "fecha": "2026-10-07",
-    "demanda_max_MW": 5134.04,
+    "fecha": "2026-10-09",
+    "demanda_max_MW": 4778.5,
     "potencia_nominal_SNI_MW": 8064.7,
     "importacion_nominal_MW": 650.0,
-    "margen_reserva_nominal_pct": 57.1,
-    "margen_reserva_nominal_con_importacion_pct": 69.7,
+    "margen_reserva_nominal_pct": 68.8,
+    "margen_reserva_nominal_con_importacion_pct": 82.4,
     "formula": "(potencia nominal SNI − demanda máxima del día) / demanda máxima del día",
     "advertencia": "Es un TECHO teórico: CENACE no publica la potencia DISPONIBLE diaria. La disponible real es menor por mantenimientos, térmicas indisponibles y, sobre todo, por falta de agua en las hidroeléctricas. No equivale a la reserva operativa de CENACE."
    }
   },
   "renovables": {
    "texto": "CENACE llama «R. no convencional» a eólica, solar, biomasa y biogás; la hidroeléctrica también es renovable pero se reporta aparte.",
-   "hoy_MWh": 632.0,
-   "hoy_pct": 0.61,
-   "renovable_total_incl_hidro_pct": 76.61,
+   "hoy_MWh": 810.0,
+   "hoy_pct": 0.82,
+   "renovable_total_incl_hidro_pct": 79.74,
    "fuente": "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm"
   }
  }
