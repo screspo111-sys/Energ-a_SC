@@ -13,9 +13,9 @@ termica_actual,19644.0,MWh/día,DATO,https://www.cenace.gob.ec/info-operativa/In
 importacion_disponible,1250.8337068493151,MWh/día,SUPUESTO,https://arconel.gob.ec/wp-content/uploads/downloads/2026/10/BNEE_julio_2026.xls,"Media del año móvil a jul-2026 (456,6 GWh/año, Colombia). Capacidad nominal enlaces 650 MW pero la disponibilidad depende de Colombia/Perú."
 renovable_no_conv,697.0,MWh/día,DATO,https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,"Eólica+solar+biomasa+biogás, último día"
 minas_san_francisco,447.0,MWh/día,DATO (incluido en resto hidro),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,
-demanda_base,98874.8,MWh/día,DATO,https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,"Media del mes a la fecha (hasta 2026-10-10), producción − exportación"
+demanda_base,98879.4,MWh/día,DATO,https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,"Media del mes a la fecha (hasta 2026-10-10), producción − exportación"
 estacionalidad_demanda,0.968;1.001;1.050;1.061;1.039;0.996;0.988;0.982;0.970;0.959;0.984;1.001,factor mes 1..12,ESTIMADO,CENACE indicadores,"Media de (mes/promedio anual) en 2018,2019,2021,2022,2023,2025 (excluye 2020 pandemia y 2024 cortes)"
-crecimiento_demanda_anual,0.08796150914496925,fracción/año,ESTIMADO,CENACE Info Operativa vs indicadores,Mes a la fecha vs mismo mes del año anterior
+crecimiento_demanda_anual,0.088012124902898,fracción/año,ESTIMADO,CENACE Info Operativa vs indicadores,Mes a la fecha vs mismo mes del año anterior
 cota_critica_mazar,2115.0,m s.n.m.,SUPUESTO (referencia histórica),https://mazar.ecuanomia.com ; datos CELEC SUR 2023–2024,"Umbral PRINCIPAL de cortes: en 2023 y 2024, al cruzar ~2115 m CELEC redujo el turbinado de Mazar y siguieron los racionamientos. No es una cota oficial."
 turbinado_bajo_cota_critica,35.0,m3/s,SUPUESTO,https://mazar.ecuanomia.com (mismo supuesto) ; operación observada 2023–2024,Bajo 2115 m el turbinado de Mazar se limita a 35 m³/s (como hizo CELEC en 2023–2024). Menos turbinado = menos energía en Paute.
 prob_apagones_etiquetas,2023-10-27→2023-12-15; 2024-04-16→2024-04-30; 2024-09-23→2024-12-19,periodos,DATO (prensa),El Universo / Expreso (ver modelo/logit_coeficientes.json),Días con apagones/racionamientos generalizados usados para etiquetar 2022–2026 (etiqueta = ese día o en los 30 siguientes)

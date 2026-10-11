@@ -1,7 +1,7 @@
 {
  "titulo": "Días estimados hasta que Mazar llegue a la cota crítica (2115 m s.n.m.)",
  "rotulo": "Estimación propia, no oficial",
- "generado": "2026-10-11T14:31-05:00",
+ "generado": "2026-10-11T15:33-05:00",
  "escenario_kpi": "actual",
  "dias": 20,
  "fecha": "2026-10-31",
@@ -49,10 +49,10 @@
   "rotulo": "Estimación propia, no oficial",
   "metodo": "Regresión logística (IRLS, L2 mínima) sobre cota Mazar, ln(afluente media 7 d), ln(mediana histórica del afluente de los 30 días siguientes, ±7 días del día del año). Etiqueta = apagones generalizados ese día o en los 30 siguientes.",
   "coeficientes": {
-   "a": 503.98061570885085,
-   "b_cota": -0.22895836338009606,
-   "b_ln_q7": -2.261222314312126,
-   "b_ln_exp30": -2.460182541006378
+   "a": 503.980615708851,
+   "b_cota": -0.22895836338009615,
+   "b_ln_q7": -2.261222314312127,
+   "b_ln_exp30": -2.4601825410063785
   },
   "periodos_apagon": [
    {
@@ -139,7 +139,7 @@
   "dias_a_min_por_tendencia": 67,
   "dias_a_2115_por_tendencia": 28,
   "fecha_cenace": "2026-10-10",
-  "demanda_base_MWh_dia": 98875,
+  "demanda_base_MWh_dia": 98879,
   "termica_actual_MWh_dia": 19644,
   "termica_max_supuesta_MWh_dia": 33270,
   "holgura_termica_MWh_dia": 13626,
@@ -326,7 +326,7 @@
   },
   {
    "clave": "demanda_base",
-   "valor": 98874.8,
+   "valor": 98879.4,
    "unidad": "MWh/día",
    "tipo": "DATO",
    "fuente": "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm",
@@ -342,7 +342,7 @@
   },
   {
    "clave": "crecimiento_demanda_anual",
-   "valor": 0.08796150914496925,
+   "valor": 0.088012124902898,
    "unidad": "fracción/año",
    "tipo": "ESTIMADO",
    "fuente": "CENACE Info Operativa vs indicadores",
