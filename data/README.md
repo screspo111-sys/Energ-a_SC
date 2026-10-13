@@ -1,6 +1,6 @@
 # Ecuador — generación unificada
 
-Última actualización (local America/Guayaquil): **2026-10-13 11:38:05 -05**
+Última actualización (local America/Guayaquil): **2026-10-13 12:35:49 -05**
 
 ## Archivos
 
@@ -25,11 +25,11 @@ Columnas: fecha_hora_local, fecha_hora_utc, granularidad, ambito, codigo_planta,
 ```json
 {
   "CELEC_SUR_ORDS": {
-    "n_rows": 1735,
+    "n_rows": 1740,
     "requests_ok": 75,
     "requests_total": 75,
     "fecha_min": "2026-09-29T01:00:00-05:00",
-    "fecha_max": "2026-10-13T11:00:00-05:00",
+    "fecha_max": "2026-10-13T12:00:00-05:00",
     "failures": [],
     "plants": [
       "MAZAR",
@@ -69,15 +69,15 @@ Columnas: fecha_hora_local, fecha_hora_utc, granularidad, ambito, codigo_planta,
     "reason": "Page is Plotly-embedded (binary y/customdata); no stable public tabular API. Skipped numeric ingest; HTML snapshot optional.",
     "errors": [],
     "http_status": 200,
-    "bytes": 266182,
-    "sha256": "57167f27e0c8ac34f79d2d970acfdffa6dbbb22a161953ca6aed7c4f89841126",
-    "fetched_at_local": "2026-10-13T11:38:05-05:00",
+    "bytes": 266186,
+    "sha256": "39ac330364a2b3aff0499dc67f244a9d56a10acc97070ca5fa2ed90057409bf7",
+    "fetched_at_local": "2026-10-13T12:35:48-05:00",
     "n_rows": 1
   }
 }
 ```
 
-Total filas unificadas: **6145**
+Total filas unificadas: **6151**
 
 ## Refresh diario
 
