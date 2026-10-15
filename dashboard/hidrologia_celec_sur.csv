@@ -15711,3 +15711,12 @@ fecha,central,metrica,valor,origen
 2026-10-13,MSF,cota_msnm,784.1075,CELEC_promedio_diario
 2026-10-13,SOPLADORA,caudal_m3s,121.09110379166667,CELEC_promedio_diario
 2026-10-13,SOPLADORA,cota_msnm,1315.7659912208333,CELEC_promedio_diario
+2026-10-14,CUENCA_PAUTE,caudal_m3s,43.496066666666664,CELEC_promedio_diario
+2026-10-14,MAZAR,caudal_m3s,20.679754970416667,CELEC_promedio_diario
+2026-10-14,MAZAR,cota_msnm,2125.008,CELEC_promedio_diario
+2026-10-14,MOLINO,caudal_m3s,100.17717008333334,CELEC_promedio_diario
+2026-10-14,MOLINO,cota_msnm,1973.4319723375,CELEC_promedio_diario
+2026-10-14,MSF,caudal_m3s,13.818884870833333,CELEC_promedio_diario
+2026-10-14,MSF,cota_msnm,784.035,CELEC_promedio_diario
+2026-10-14,SOPLADORA,caudal_m3s,115.96491961578947,CELEC_promedio_diario
+2026-10-14,SOPLADORA,cota_msnm,1315.64490765,CELEC_promedio_diario
