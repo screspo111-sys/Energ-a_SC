@@ -1,16 +1,16 @@
 {
-  "updated_at_local": "2026-10-15 08:55:06 -05",
-  "n_rows": 6415,
+  "updated_at_local": "2026-10-15 09:50:18 -05",
+  "n_rows": 6421,
   "csv": "data/generacion_unificada.csv",
   "parquet": "data/generacion_unificada.parquet",
   "meta_json": "data/collect_meta.json",
   "sources": {
     "CELEC_SUR_ORDS": {
-      "n_rows": 1720,
+      "n_rows": 1725,
       "requests_ok": 75,
       "requests_total": 75,
       "fecha_min": "2026-10-01T01:00:00-05:00",
-      "fecha_max": "2026-10-15T08:00:00-05:00",
+      "fecha_max": "2026-10-15T09:00:00-05:00",
       "failures": [],
       "plants": [
         "MAZAR",
@@ -50,9 +50,9 @@
       "reason": "Page is Plotly-embedded (binary y/customdata); no stable public tabular API. Skipped numeric ingest; HTML snapshot optional.",
       "errors": [],
       "http_status": 200,
-      "bytes": 266575,
-      "sha256": "7d266aa052dbb6ef79d6d4ab25f822787d43fbbc6cf6d457c6066db25510b543",
-      "fetched_at_local": "2026-10-15T08:55:06-05:00",
+      "bytes": 266577,
+      "sha256": "48a9e6b5f596962818388839a3f328ea189fce046074355635eab8f698d64f71",
+      "fetched_at_local": "2026-10-15T09:50:18-05:00",
       "n_rows": 1
     }
   },
