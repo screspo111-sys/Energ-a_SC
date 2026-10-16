@@ -1,6 +1,6 @@
 # Ecuador — generación unificada
 
-Última actualización (local America/Guayaquil): **2026-10-16 10:46:58 -05**
+Última actualización (local America/Guayaquil): **2026-10-16 11:48:04 -05**
 
 ## Archivos
 
@@ -25,11 +25,11 @@ Columnas: fecha_hora_local, fecha_hora_utc, granularidad, ambito, codigo_planta,
 ```json
 {
   "CELEC_SUR_ORDS": {
-    "n_rows": 1730,
+    "n_rows": 1735,
     "requests_ok": 75,
     "requests_total": 75,
     "fecha_min": "2026-10-02T01:00:00-05:00",
-    "fecha_max": "2026-10-16T10:00:00-05:00",
+    "fecha_max": "2026-10-16T11:00:00-05:00",
     "failures": [],
     "plants": [
       "MAZAR",
@@ -51,8 +51,15 @@ Columnas: fecha_hora_local, fecha_hora_utc, granularidad, ambito, codigo_planta,
     "fecha_max": "2026-07-01T00:00:00-05:00"
   },
   "ARCONEL_BNEE": {
-    "ok": false,
-    "error": "503 Server Error: Service Unavailable for url: https://arconel.gob.ec/balance-nacional-de-energia-electrica/"
+    "fuente": "ARCONEL_BNEE",
+    "url": "https://arconel.gob.ec/wp-content/uploads/downloads/2026/10/BNEE_julio_2026.xls",
+    "path": "/home/runner/work/Energ-a_SC/Energ-a_SC/raw/BNEE_julio_2026.xls",
+    "page": "https://arconel.gob.ec/balance-nacional-de-energia-electrica/",
+    "ok": true,
+    "errors": [],
+    "titulo": "Balance Nacional de Energía Eléctrica (BNEE) - Año móvil con corte a julio 2026 (1)",
+    "corte": "julio_2026",
+    "n_rows": 70
   },
   "CENACE_InfoOperativa": {
     "fuente": "CENACE_InfoOperativa",
@@ -62,15 +69,15 @@ Columnas: fecha_hora_local, fecha_hora_utc, granularidad, ambito, codigo_planta,
     "reason": "Page is Plotly-embedded (binary y/customdata); no stable public tabular API. Skipped numeric ingest; HTML snapshot optional.",
     "errors": [],
     "http_status": 200,
-    "bytes": 266616,
-    "sha256": "48978b2e61b9b0e760bd483d88b476e3190f21f82e0376c6b420ba86a20ce6f3",
-    "fetched_at_local": "2026-10-16T10:46:58-05:00",
+    "bytes": 266580,
+    "sha256": "47df2abb1c883377e4042480867318a33da8371d50e4af826839347a65ad658b",
+    "fetched_at_local": "2026-10-16T11:48:03-05:00",
     "n_rows": 1
   }
 }
 ```
 
-Total filas unificadas: **6571**
+Total filas unificadas: **6577**
 
 ## Refresh diario
 
