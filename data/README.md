@@ -1,6 +1,6 @@
 # Ecuador — generación unificada
 
-Última actualización (local America/Guayaquil): **2026-10-16 04:48:17 -05**
+Última actualización (local America/Guayaquil): **2026-10-16 05:47:57 -05**
 
 ## Archivos
 
@@ -25,7 +25,7 @@ Columnas: fecha_hora_local, fecha_hora_utc, granularidad, ambito, codigo_planta,
 ```json
 {
   "CELEC_SUR_ORDS": {
-    "n_rows": 1706,
+    "n_rows": 1709,
     "requests_ok": 75,
     "requests_total": 75,
     "fecha_min": "2026-10-02T01:00:00-05:00",
@@ -52,7 +52,7 @@ Columnas: fecha_hora_local, fecha_hora_utc, granularidad, ambito, codigo_planta,
   },
   "ARCONEL_BNEE": {
     "ok": false,
-    "error": "HTTPSConnectionPool(host='arconel.gob.ec', port=443): Read timed out. (read timeout=60)"
+    "error": "503 Server Error: Service Unavailable for url: https://arconel.gob.ec/balance-nacional-de-energia-electrica/"
   },
   "CENACE_InfoOperativa": {
     "fuente": "CENACE_InfoOperativa",
@@ -62,15 +62,15 @@ Columnas: fecha_hora_local, fecha_hora_utc, granularidad, ambito, codigo_planta,
     "reason": "Page is Plotly-embedded (binary y/customdata); no stable public tabular API. Skipped numeric ingest; HTML snapshot optional.",
     "errors": [],
     "http_status": 200,
-    "bytes": 266660,
-    "sha256": "7717c97efeb568964fb597d16fed8c70c0e2a4a5eca21a6a95589acd453e8aaa",
-    "fetched_at_local": "2026-10-16T04:48:16-05:00",
+    "bytes": 266621,
+    "sha256": "a6245d33bce8ca2a5b581c2c9a792ae6938de517fbe88768f0d2dde89614475d",
+    "fetched_at_local": "2026-10-16T05:47:57-05:00",
     "n_rows": 1
   }
 }
 ```
 
-Total filas unificadas: **6541**
+Total filas unificadas: **6545**
 
 ## Refresh diario
 
