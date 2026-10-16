@@ -66,9 +66,9 @@
  },
  "prob_max_45d": {
   "seco": 0.9999,
-  "normal": 0.9896,
-  "humedo": 0.8055,
-  "actual": 0.9852
+  "normal": 0.9905,
+  "humedo": 0.8077,
+  "actual": 0.9849
  },
  "limitaciones": [
   "Solo 3 crisis (2023, abril 2024, sep–dic 2024) para aprender: muy pocos eventos, la probabilidad es orientativa.",
