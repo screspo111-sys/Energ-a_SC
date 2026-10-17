@@ -1,6 +1,6 @@
 # Ecuador — generación unificada
 
-Última actualización (local America/Guayaquil): **2026-10-17 11:43:47 -05**
+Última actualización (local America/Guayaquil): **2026-10-17 12:40:23 -05**
 
 ## Archivos
 
@@ -24,22 +24,6 @@ Columnas: fecha_hora_local, fecha_hora_utc, granularidad, ambito, codigo_planta,
 
 ```json
 {
-  "CELEC_SUR_ORDS": {
-    "n_rows": 1735,
-    "requests_ok": 75,
-    "requests_total": 75,
-    "fecha_min": "2026-10-03T01:00:00-05:00",
-    "fecha_max": "2026-10-17T11:00:00-05:00",
-    "failures": [],
-    "plants": [
-      "MAZAR",
-      "MOLINO",
-      "SOPLADORA",
-      "MSF",
-      "CELEC_SUR"
-    ],
-    "days": 14
-  },
   "CENACE_indicadores": {
     "fuente": "CENACE_indicadores",
     "url": "https://www.cenace.gob.ec/wp-content/plugins/ez-addons/data/indicadores.xlsx",
@@ -69,15 +53,15 @@ Columnas: fecha_hora_local, fecha_hora_utc, granularidad, ambito, codigo_planta,
     "reason": "Page is Plotly-embedded (binary y/customdata); no stable public tabular API. Skipped numeric ingest; HTML snapshot optional.",
     "errors": [],
     "http_status": 200,
-    "bytes": 266226,
-    "sha256": "6264a67b01b44c8034145b463493d23264af67281b385735099fd24b18f99e2c",
-    "fetched_at_local": "2026-10-17T11:43:47-05:00",
+    "bytes": 266243,
+    "sha256": "e99fc20ff48af2de4c9e335c4fa5f2c71d3b301ad9ea404a9f664cf66e6a8364",
+    "fetched_at_local": "2026-10-17T12:40:23-05:00",
     "n_rows": 1
   }
 }
 ```
 
-Total filas unificadas: **6721**
+Total filas unificadas: **6722**
 
 ## Refresh diario
 
