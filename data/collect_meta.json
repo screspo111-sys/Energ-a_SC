@@ -1,10 +1,26 @@
 {
-  "updated_at_local": "2026-10-17 12:40:23 -05",
-  "n_rows": 6722,
+  "updated_at_local": "2026-10-17 13:45:04 -05",
+  "n_rows": 6733,
   "csv": "data/generacion_unificada.csv",
   "parquet": "data/generacion_unificada.parquet",
   "meta_json": "data/collect_meta.json",
   "sources": {
+    "CELEC_SUR_ORDS": {
+      "n_rows": 1745,
+      "requests_ok": 75,
+      "requests_total": 75,
+      "fecha_min": "2026-10-03T01:00:00-05:00",
+      "fecha_max": "2026-10-17T13:00:00-05:00",
+      "failures": [],
+      "plants": [
+        "MAZAR",
+        "MOLINO",
+        "SOPLADORA",
+        "MSF",
+        "CELEC_SUR"
+      ],
+      "days": 14
+    },
     "CENACE_indicadores": {
       "fuente": "CENACE_indicadores",
       "url": "https://www.cenace.gob.ec/wp-content/plugins/ez-addons/data/indicadores.xlsx",
@@ -34,9 +50,9 @@
       "reason": "Page is Plotly-embedded (binary y/customdata); no stable public tabular API. Skipped numeric ingest; HTML snapshot optional.",
       "errors": [],
       "http_status": 200,
-      "bytes": 266243,
-      "sha256": "e99fc20ff48af2de4c9e335c4fa5f2c71d3b301ad9ea404a9f664cf66e6a8364",
-      "fetched_at_local": "2026-10-17T12:40:23-05:00",
+      "bytes": 266560,
+      "sha256": "0dc967b3060c507edd3c46cf79c74e484b0c94dde8b51d5747db0ce74fbea047",
+      "fetched_at_local": "2026-10-17T13:45:04-05:00",
       "n_rows": 1
     }
   },
