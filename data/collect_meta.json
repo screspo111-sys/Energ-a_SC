@@ -1,16 +1,16 @@
 {
-  "updated_at_local": "2026-10-18 06:41:44 -05",
-  "n_rows": 6837,
+  "updated_at_local": "2026-10-18 07:50:34 -05",
+  "n_rows": 6857,
   "csv": "data/generacion_unificada.csv",
   "parquet": "data/generacion_unificada.parquet",
   "meta_json": "data/collect_meta.json",
   "sources": {
     "CELEC_SUR_ORDS": {
-      "n_rows": 1712,
+      "n_rows": 1731,
       "requests_ok": 75,
       "requests_total": 75,
       "fecha_min": "2026-10-04T01:00:00-05:00",
-      "fecha_max": "2026-10-18T07:00:00-05:00",
+      "fecha_max": "2026-10-18T15:00:00-05:00",
       "failures": [],
       "plants": [
         "MAZAR",
@@ -51,8 +51,8 @@
       "errors": [],
       "http_status": 200,
       "bytes": 266639,
-      "sha256": "28658d1d644c94f1b14500805075919e42d1fe2a6f6b2463f9aa5987a0749028",
-      "fetched_at_local": "2026-10-18T06:41:44-05:00",
+      "sha256": "bbd0f11c093e326de6975ac5b075f4f64f0a38b13831ea5b6d5b2d415a752eb8",
+      "fetched_at_local": "2026-10-18T07:50:34-05:00",
       "n_rows": 1
     }
   },
