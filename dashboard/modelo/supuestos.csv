@@ -2,7 +2,7 @@ clave,valor,unidad,tipo,fuente,nota
 cota_min_operativa_mazar,2098.0,m s.n.m.,DATO,https://www.celec.gob.ec/celecsur/informacion-tecnica/central-hidroelectrica-paute-mazar/,Cota mínima de operación según ficha técnica CELEC SUR
 eficiencia_mazar,0.9,-,SUPUESTO,valor típico turbina+generador,Para convertir MWh de Mazar en caudal turbinado
 curva_cota_volumen_mazar,empírica,hm3/m por tramo,ESTIMADO/SUPUESTO,modelo/curva_mazar_empirica.csv,"CELEC no publica la curva cota-volumen en las fuentes revisadas; se estimó con 2023–2026 (r≈0,9–0,98). Bajo ~2107 m se extrapola."
-k_molino_sopladora,237.70576299392707,MWh/día por m3/s,ESTIMADO,https://generacioncsr.celec.gob.ec/graficasproduccion/ (ORDS generacioncsr.celec.gob.ec:8443/ords/csr),"Energía Molino+Sopladora / (turbinado Mazar + aporte intermedio cuenca Paute), 2023–2026"
+k_molino_sopladora,237.70995204645536,MWh/día por m3/s,ESTIMADO,https://generacioncsr.celec.gob.ec/graficasproduccion/ (ORDS generacioncsr.celec.gob.ec:8443/ords/csr),"Energía Molino+Sopladora / (turbinado Mazar + aporte intermedio cuenca Paute), 2023–2026"
 turbinado_mazar_politica,59.87434891931809,m3/s,SUPUESTO,https://generacioncsr.celec.gob.ec/graficasproduccion/ (ORDS generacioncsr.celec.gob.ec:8443/ords/csr),Se mantiene el turbinado medio de Mazar de los últimos 14 días (derivado de energía y salto)
 transicion_escenarios,14,días,SUPUESTO,propio,Los escenarios seco/normal/húmedo/2024 pasan linealmente del caudal actual al del escenario en 14 días
 caudal_afluente_mazar_actual,27.080963512202377,m3/s,DATO,https://generacioncsr.celec.gob.ec/graficasproduccion/ (ORDS generacioncsr.celec.gob.ec:8443/ords/csr),Promedio 2026-10-05–2026-10-18
