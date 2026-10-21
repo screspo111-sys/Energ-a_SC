@@ -56,11 +56,11 @@
  "horizonte_dias": 45,
  "validacion_ecuanomia": {
   "fecha": "2026-10-06",
-  "cota": 2131.78,
+  "cota": 2131.75,
   "q7": 40.43,
   "exp30": 39.02,
-  "prob_modelo_propio": 0.181,
-  "prob_coef_ecuanomia_con_nuestros_datos": 0.154,
+  "prob_modelo_propio": 0.182,
+  "prob_coef_ecuanomia_con_nuestros_datos": 0.155,
   "prob_publicada_ecuanomia": 0.21,
   "fuente": "https://mazar.ecuanomia.com (data.json)"
  },
