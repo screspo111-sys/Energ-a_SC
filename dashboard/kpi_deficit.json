@@ -1,7 +1,7 @@
 {
  "titulo": "Días estimados hasta que Mazar llegue a la cota crítica (2115 m s.n.m.)",
  "rotulo": "Estimación propia, no oficial",
- "generado": "2026-10-21T08:53-05:00",
+ "generado": "2026-10-21T10:18-05:00",
  "escenario_kpi": "actual",
  "dias": 8,
  "fecha": "2026-10-29",
@@ -103,11 +103,11 @@
   "horizonte_dias": 45,
   "validacion_ecuanomia": {
    "fecha": "2026-10-06",
-   "cota": 2131.75,
+   "cota": 2131.78,
    "q7": 40.43,
    "exp30": 39.02,
-   "prob_modelo_propio": 0.182,
-   "prob_coef_ecuanomia_con_nuestros_datos": 0.155,
+   "prob_modelo_propio": 0.181,
+   "prob_coef_ecuanomia_con_nuestros_datos": 0.154,
    "prob_publicada_ecuanomia": 0.21,
    "fuente": "https://mazar.ecuanomia.com (data.json)"
   },
@@ -135,8 +135,8 @@
   "afluente_mazar_7d_m3s": 25.7,
   "afluente_mazar_14d_m3s": 25.8,
   "turbinado_mazar_14d_m3s": 60.1,
-  "tendencia_cota_m_dia_14d": -0.631,
-  "dias_a_min_por_tendencia": 37,
+  "tendencia_cota_m_dia_14d": -0.633,
+  "dias_a_min_por_tendencia": 36,
   "dias_a_2115_por_tendencia": 10,
   "fecha_cenace": "2026-10-19",
   "demanda_base_MWh_dia": 96996,
@@ -238,7 +238,7 @@
   },
   {
    "clave": "k_molino_sopladora",
-   "valor": 237.70587154784164,
+   "valor": 237.70470334261952,
    "unidad": "MWh/día por m3/s",
    "tipo": "ESTIMADO",
    "fuente": "https://generacioncsr.celec.gob.ec/graficasproduccion/ (ORDS generacioncsr.celec.gob.ec:8443/ords/csr)",
@@ -246,7 +246,7 @@
   },
   {
    "clave": "turbinado_mazar_politica",
-   "valor": 60.100286049141445,
+   "valor": 60.09893641343093,
    "unidad": "m3/s",
    "tipo": "SUPUESTO",
    "fuente": "https://generacioncsr.celec.gob.ec/graficasproduccion/ (ORDS generacioncsr.celec.gob.ec:8443/ords/csr)",

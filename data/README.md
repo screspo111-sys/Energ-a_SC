@@ -1,6 +1,6 @@
 # Ecuador — generación unificada
 
-Última actualización (local America/Guayaquil): **2026-10-21 08:53:15 -05**
+Última actualización (local America/Guayaquil): **2026-10-21 09:58:04 -05**
 
 ## Archivos
 
@@ -24,6 +24,103 @@ Columnas: fecha_hora_local, fecha_hora_utc, granularidad, ambito, codigo_planta,
 
 ```json
 {
+  "CELEC_SUR_ORDS": {
+    "n_rows": 1452,
+    "requests_ok": 63,
+    "requests_total": 75,
+    "fecha_min": "2026-10-07T01:00:00-05:00",
+    "fecha_max": "2026-10-21T09:00:00-05:00",
+    "failures": [
+      {
+        "plant": "CELEC_SUR",
+        "day": "2026-10-10",
+        "url": "https://generacioncsr.celec.gob.ec:8443/ords/csr/sardomcsr/csrEnerDia?fecha=10/10/2026%2000%3A00%3A00",
+        "ok": false,
+        "n": 0,
+        "error": "CELEC fetch failed after 3 tries: https://generacioncsr.celec.gob.ec:8443/ords/csr/sardomcsr/csrEnerDia?fecha=10/10/2026%2000%3A00%3A00 (HTTP Error 503: )"
+      },
+      {
+        "plant": "CELEC_SUR",
+        "day": "2026-10-11",
+        "url": "https://generacioncsr.celec.gob.ec:8443/ords/csr/sardomcsr/csrEnerDia?fecha=11/10/2026%2000%3A00%3A00",
+        "ok": false,
+        "n": 0,
+        "error": "CELEC fetch failed after 3 tries: https://generacioncsr.celec.gob.ec:8443/ords/csr/sardomcsr/csrEnerDia?fecha=11/10/2026%2000%3A00%3A00 (HTTP Error 503: )"
+      },
+      {
+        "plant": "CELEC_SUR",
+        "day": "2026-10-12",
+        "url": "https://generacioncsr.celec.gob.ec:8443/ords/csr/sardomcsr/csrEnerDia?fecha=12/10/2026%2000%3A00%3A00",
+        "ok": false,
+        "n": 0,
+        "error": "CELEC fetch failed after 3 tries: https://generacioncsr.celec.gob.ec:8443/ords/csr/sardomcsr/csrEnerDia?fecha=12/10/2026%2000%3A00%3A00 (The read operation timed out)"
+      },
+      {
+        "plant": "CELEC_SUR",
+        "day": "2026-10-13",
+        "url": "https://generacioncsr.celec.gob.ec:8443/ords/csr/sardomcsr/csrEnerDia?fecha=13/10/2026%2000%3A00%3A00",
+        "ok": false,
+        "n": 0,
+        "error": "CELEC fetch failed after 3 tries: https://generacioncsr.celec.gob.ec:8443/ords/csr/sardomcsr/csrEnerDia?fecha=13/10/2026%2000%3A00%3A00 (<urlopen error timed out>)"
+      },
+      {
+        "plant": "CELEC_SUR",
+        "day": "2026-10-14",
+        "url": "https://generacioncsr.celec.gob.ec:8443/ords/csr/sardomcsr/csrEnerDia?fecha=14/10/2026%2000%3A00%3A00",
+        "ok": false,
+        "n": 0,
+        "error": "CELEC fetch failed after 3 tries: https://generacioncsr.celec.gob.ec:8443/ords/csr/sardomcsr/csrEnerDia?fecha=14/10/2026%2000%3A00%3A00 (HTTP Error 404: )"
+      },
+      {
+        "plant": "CELEC_SUR",
+        "day": "2026-10-15",
+        "url": "https://generacioncsr.celec.gob.ec:8443/ords/csr/sardomcsr/csrEnerDia?fecha=15/10/2026%2000%3A00%3A00",
+        "ok": false,
+        "n": 0,
+        "error": "CELEC fetch failed after 3 tries: https://generacioncsr.celec.gob.ec:8443/ords/csr/sardomcsr/csrEnerDia?fecha=15/10/2026%2000%3A00%3A00 (HTTP Error 404: )"
+      },
+      {
+        "plant": "CELEC_SUR",
+        "day": "2026-10-16",
+        "url": "https://generacioncsr.celec.gob.ec:8443/ords/csr/sardomcsr/csrEnerDia?fecha=16/10/2026%2000%3A00%3A00",
+        "ok": false,
+        "n": 0,
+        "error": "CELEC fetch failed after 3 tries: https://generacioncsr.celec.gob.ec:8443/ords/csr/sardomcsr/csrEnerDia?fecha=16/10/2026%2000%3A00%3A00 (HTTP Error 404: )"
+      },
+      {
+        "plant": "CELEC_SUR",
+        "day": "2026-10-17",
+        "url": "https://generacioncsr.celec.gob.ec:8443/ords/csr/sardomcsr/csrEnerDia?fecha=17/10/2026%2000%3A00%3A00",
+        "ok": false,
+        "n": 0,
+        "error": "CELEC fetch failed after 3 tries: https://generacioncsr.celec.gob.ec:8443/ords/csr/sardomcsr/csrEnerDia?fecha=17/10/2026%2000%3A00%3A00 (HTTP Error 404: )"
+      },
+      {
+        "plant": "CELEC_SUR",
+        "day": "2026-10-18",
+        "url": "https://generacioncsr.celec.gob.ec:8443/ords/csr/sardomcsr/csrEnerDia?fecha=18/10/2026%2000%3A00%3A00",
+        "ok": false,
+        "n": 0,
+        "error": "CELEC fetch failed after 3 tries: https://generacioncsr.celec.gob.ec:8443/ords/csr/sardomcsr/csrEnerDia?fecha=18/10/2026%2000%3A00%3A00 (HTTP Error 404: )"
+      },
+      {
+        "plant": "CELEC_SUR",
+        "day": "2026-10-19",
+        "url": "https://generacioncsr.celec.gob.ec:8443/ords/csr/sardomcsr/csrEnerDia?fecha=19/10/2026%2000%3A00%3A00",
+        "ok": false,
+        "n": 0,
+        "error": "CELEC fetch failed after 3 tries: https://generacioncsr.celec.gob.ec:8443/ords/csr/sardomcsr/csrEnerDia?fecha=19/10/2026%2000%3A00%3A00 (HTTP Error 404: )"
+      }
+    ],
+    "plants": [
+      "MAZAR",
+      "MOLINO",
+      "SOPLADORA",
+      "MSF",
+      "CELEC_SUR"
+    ],
+    "days": 14
+  },
   "CENACE_indicadores": {
     "fuente": "CENACE_indicadores",
     "url": "https://www.cenace.gob.ec/wp-content/plugins/ez-addons/data/indicadores.xlsx",
@@ -53,15 +150,15 @@ Columnas: fecha_hora_local, fecha_hora_utc, granularidad, ambito, codigo_planta,
     "reason": "Page is Plotly-embedded (binary y/customdata); no stable public tabular API. Skipped numeric ingest; HTML snapshot optional.",
     "errors": [],
     "http_status": 200,
-    "bytes": 266603,
-    "sha256": "2367f0e8c2bf95f56468a21670625831ae8813a212edf21772de90ab49c084ae",
-    "fetched_at_local": "2026-10-21T08:53:15-05:00",
+    "bytes": 266623,
+    "sha256": "f9022f3f516ee62d1dafe279953141645ea1e371c23178232c2329a09dd40801",
+    "fetched_at_local": "2026-10-21T09:58:04-05:00",
     "n_rows": 1
   }
 }
 ```
 
-Total filas unificadas: **7274**
+Total filas unificadas: **7283**
 
 ## Refresh diario
 
