@@ -2,10 +2,10 @@
  "rotulo": "Estimación propia, no oficial",
  "metodo": "Regresión logística (IRLS, L2 mínima) sobre cota Mazar, ln(afluente media 7 d), ln(mediana histórica del afluente de los 30 días siguientes, ±7 días del día del año). Etiqueta = apagones generalizados ese día o en los 30 siguientes.",
  "coeficientes": {
-  "a": 503.450906252282,
-  "b_cota": -0.22867424934960914,
-  "b_ln_q7": -2.3102442494365145,
-  "b_ln_exp30": -2.4353566842591703
+  "a": 502.6944937380231,
+  "b_cota": -0.2283365583348916,
+  "b_ln_q7": -2.3196915059542054,
+  "b_ln_exp30": -2.417405521152689
  },
  "periodos_apagon": [
   {
@@ -25,32 +25,32 @@
   }
  ],
  "n_dias_apagon": 153,
- "n_entrenamiento": 1719,
+ "n_entrenamiento": 1720,
  "n_positivos": 243,
- "ajuste_hasta": "2026-09-19",
- "auc_en_muestra": 0.9823151215051246,
- "precision_cuando_p_mayor_20": 0.7254901960784313,
- "fecha_dato": "2026-10-19",
- "prob_hoy": 0.875,
- "cota_hoy": 2122.11,
- "q7_hoy": 25.43,
- "exp30_hoy": 36.42,
+ "ajuste_hasta": "2026-09-20",
+ "auc_en_muestra": 0.9823075915756274,
+ "precision_cuando_p_mayor_20": 0.7278688524590164,
+ "fecha_dato": "2026-10-20",
+ "prob_hoy": 0.889,
+ "cota_hoy": 2121.39,
+ "q7_hoy": 25.69,
+ "exp30_hoy": 36.5,
  "primer_dia_mayor_50": {
   "seco": {
    "dias": 0,
-   "fecha": "2026-10-20"
+   "fecha": "2026-10-21"
   },
   "normal": {
    "dias": 0,
-   "fecha": "2026-10-20"
+   "fecha": "2026-10-21"
   },
   "humedo": {
    "dias": 0,
-   "fecha": "2026-10-20"
+   "fecha": "2026-10-21"
   },
   "actual": {
    "dias": 0,
-   "fecha": "2026-10-20"
+   "fecha": "2026-10-21"
   }
  },
  "horizonte_dias": 45,
@@ -59,15 +59,15 @@
   "cota": 2131.75,
   "q7": 40.43,
   "exp30": 39.02,
-  "prob_modelo_propio": 0.183,
+  "prob_modelo_propio": 0.182,
   "prob_coef_ecuanomia_con_nuestros_datos": 0.155,
   "prob_publicada_ecuanomia": 0.21,
   "fuente": "https://mazar.ecuanomia.com (data.json)"
  },
  "prob_max_45d": {
   "seco": 0.9999,
-  "normal": 0.9938,
-  "humedo": 0.8971,
+  "normal": 0.9939,
+  "humedo": 0.9097,
   "actual": 0.9973
  },
  "limitaciones": [
