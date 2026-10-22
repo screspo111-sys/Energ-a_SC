@@ -246,22 +246,22 @@ fecha,componente,valor,unidad,fuente,url,consultado
 2026-10-19,importacion,56.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-21T11:49:00-05:00
 2026-10-19,produccion_total,96624.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-21T11:49:00-05:00
 2026-10-19,termica_max_MW_media_hora,1259.49,MW,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-21T11:49:00-05:00
-2026-10-20,Agoyán,1821.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T06:48:00-05:00
-2026-10-20,Coca Codo,16099.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T06:48:00-05:00
-2026-10-20,Delsitanisagua,2667.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T06:48:00-05:00
-2026-10-20,Gas Natural,2864.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T06:48:00-05:00
-2026-10-20,Mazar,1501.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T06:48:00-05:00
-2026-10-20,Minas San Francisco,1324.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T06:48:00-05:00
-2026-10-20,Otras Hidro,24524.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T06:48:00-05:00
-2026-10-20,Paute,12134.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T06:48:00-05:00
-2026-10-20,Renovable,523.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T06:48:00-05:00
-2026-10-20,San Francisco,2615.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T06:48:00-05:00
-2026-10-20,Sopladora,7144.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T06:48:00-05:00
-2026-10-20,TOTAL_hidraulica,69829.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T06:48:00-05:00
-2026-10-20,TOTAL_renovable_no_conv,523.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T06:48:00-05:00
-2026-10-20,TOTAL_termica,27990.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T06:48:00-05:00
-2026-10-20,Térmica,25126.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T06:48:00-05:00
-2026-10-20,exportacion,84.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T06:48:00-05:00
-2026-10-20,importacion,61.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T06:48:00-05:00
-2026-10-20,produccion_total,98403.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T06:48:00-05:00
-2026-10-20,termica_max_MW_media_hora,1255.15,MW,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T06:48:00-05:00
+2026-10-20,Agoyán,1821.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T07:59:00-05:00
+2026-10-20,Coca Codo,16099.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T07:59:00-05:00
+2026-10-20,Delsitanisagua,2667.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T07:59:00-05:00
+2026-10-20,Gas Natural,2864.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T07:59:00-05:00
+2026-10-20,Mazar,1501.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T07:59:00-05:00
+2026-10-20,Minas San Francisco,1324.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T07:59:00-05:00
+2026-10-20,Otras Hidro,24524.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T07:59:00-05:00
+2026-10-20,Paute,12134.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T07:59:00-05:00
+2026-10-20,Renovable,523.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T07:59:00-05:00
+2026-10-20,San Francisco,2615.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T07:59:00-05:00
+2026-10-20,Sopladora,7144.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T07:59:00-05:00
+2026-10-20,TOTAL_hidraulica,69829.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T07:59:00-05:00
+2026-10-20,TOTAL_renovable_no_conv,523.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T07:59:00-05:00
+2026-10-20,TOTAL_termica,27990.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T07:59:00-05:00
+2026-10-20,Térmica,25126.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T07:59:00-05:00
+2026-10-20,exportacion,84.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T07:59:00-05:00
+2026-10-20,importacion,61.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T07:59:00-05:00
+2026-10-20,produccion_total,98403.0,MWh,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T07:59:00-05:00
+2026-10-20,termica_max_MW_media_hora,1255.15,MW,CENACE Información Operativa (diaria),https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,2026-10-22T07:59:00-05:00
