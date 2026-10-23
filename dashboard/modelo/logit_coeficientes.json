@@ -2,10 +2,10 @@
  "rotulo": "Estimación propia, no oficial",
  "metodo": "Regresión logística (IRLS, L2 mínima) sobre cota Mazar, ln(afluente media 7 d), ln(mediana histórica del afluente de los 30 días siguientes, ±7 días del día del año). Etiqueta = apagones generalizados ese día o en los 30 siguientes.",
  "coeficientes": {
-  "a": 502.1134678918705,
-  "b_cota": -0.2280750218785545,
-  "b_ln_q7": -2.3279989483302916,
-  "b_ln_exp30": -2.403816366071491
+  "a": 501.6026915591195,
+  "b_cota": -0.22784658721397966,
+  "b_ln_q7": -2.336801535173739,
+  "b_ln_exp30": -2.3898041586600822
  },
  "periodos_apagon": [
   {
@@ -25,32 +25,32 @@
   }
  ],
  "n_dias_apagon": 153,
- "n_entrenamiento": 1721,
+ "n_entrenamiento": 1722,
  "n_positivos": 243,
- "ajuste_hasta": "2026-09-21",
- "auc_en_muestra": 0.9823223464029358,
- "precision_cuando_p_mayor_20": 0.7278688524590164,
- "fecha_dato": "2026-10-21",
- "prob_hoy": 0.845,
- "cota_hoy": 2121.3,
- "q7_hoy": 30.59,
- "exp30_hoy": 36.38,
+ "ajuste_hasta": "2026-09-22",
+ "auc_en_muestra": 0.9823092568941867,
+ "precision_cuando_p_mayor_20": 0.7269736842105263,
+ "fecha_dato": "2026-10-22",
+ "prob_hoy": 0.755,
+ "cota_hoy": 2122.24,
+ "q7_hoy": 35.22,
+ "exp30_hoy": 36.67,
  "primer_dia_mayor_50": {
   "seco": {
    "dias": 0,
-   "fecha": "2026-10-22"
+   "fecha": "2026-10-23"
   },
   "normal": {
    "dias": 0,
-   "fecha": "2026-10-22"
+   "fecha": "2026-10-23"
   },
   "humedo": {
    "dias": 0,
-   "fecha": "2026-10-22"
+   "fecha": "2026-10-23"
   },
   "actual": {
    "dias": 0,
-   "fecha": "2026-10-22"
+   "fecha": "2026-10-23"
   }
  },
  "horizonte_dias": 45,
@@ -66,9 +66,9 @@
  },
  "prob_max_45d": {
   "seco": 0.9999,
-  "normal": 0.9928,
-  "humedo": 0.8675,
-  "actual": 0.9952
+  "normal": 0.9906,
+  "humedo": 0.7787,
+  "actual": 0.9886
  },
  "limitaciones": [
   "Solo 3 crisis (2023, abril 2024, sep–dic 2024) para aprender: muy pocos eventos, la probabilidad es orientativa.",
