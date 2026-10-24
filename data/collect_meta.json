@@ -1,16 +1,16 @@
 {
-  "updated_at_local": "2026-10-24 03:47:12 -05",
-  "n_rows": 7681,
+  "updated_at_local": "2026-10-24 04:45:50 -05",
+  "n_rows": 7687,
   "csv": "data/generacion_unificada.csv",
   "parquet": "data/generacion_unificada.parquet",
   "meta_json": "data/collect_meta.json",
   "sources": {
     "CELEC_SUR_ORDS": {
-      "n_rows": 1695,
+      "n_rows": 1700,
       "requests_ok": 75,
       "requests_total": 75,
       "fecha_min": "2026-10-10T01:00:00-05:00",
-      "fecha_max": "2026-10-24T03:00:00-05:00",
+      "fecha_max": "2026-10-24T04:00:00-05:00",
       "failures": [],
       "plants": [
         "MAZAR",
@@ -32,8 +32,15 @@
       "fecha_max": "2026-07-01T00:00:00-05:00"
     },
     "ARCONEL_BNEE": {
-      "ok": false,
-      "error": "503 Server Error: Service Unavailable for url: https://arconel.gob.ec/balance-nacional-de-energia-electrica/"
+      "fuente": "ARCONEL_BNEE",
+      "url": "https://arconel.gob.ec/wp-content/uploads/downloads/2026/10/BNEE_julio_2026.xls",
+      "path": "/home/runner/work/Energ-a_SC/Energ-a_SC/raw/BNEE_julio_2026.xls",
+      "page": "https://arconel.gob.ec/balance-nacional-de-energia-electrica/",
+      "ok": true,
+      "errors": [],
+      "titulo": "Balance Nacional de Energía Eléctrica (BNEE) - Año móvil con corte a julio 2026 (1)",
+      "corte": "julio_2026",
+      "n_rows": 70
     },
     "CENACE_InfoOperativa": {
       "fuente": "CENACE_InfoOperativa",
@@ -43,15 +50,13 @@
       "reason": "Page is Plotly-embedded (binary y/customdata); no stable public tabular API. Skipped numeric ingest; HTML snapshot optional.",
       "errors": [],
       "http_status": 200,
-      "bytes": 266037,
-      "sha256": "f34a78595c64a134545873100ecbfa75c23775d5b559cb0d2350e60c010121d7",
-      "fetched_at_local": "2026-10-24T03:47:12-05:00",
+      "bytes": 266010,
+      "sha256": "ecb96587c3ad176470ad178ab4b72dbc9c6d1f0a00203ad0a060a4235ca59d61",
+      "fetched_at_local": "2026-10-24T04:45:50-05:00",
       "n_rows": 1
     }
   },
-  "failures": [
-    "ARCONEL fatal: 503 Server Error: Service Unavailable for url: https://arconel.gob.ec/balance-nacional-de-energia-electrica/"
-  ],
+  "failures": [],
   "columns": [
     "fecha_hora_local",
     "fecha_hora_utc",
