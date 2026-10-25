@@ -2,10 +2,10 @@
  "rotulo": "Estimación propia, no oficial",
  "metodo": "Regresión logística (IRLS, L2 mínima) sobre cota Mazar, ln(afluente media 7 d), ln(mediana histórica del afluente de los 30 días siguientes, ±7 días del día del año). Etiqueta = apagones generalizados ese día o en los 30 siguientes.",
  "coeficientes": {
-  "a": 501.21709041425686,
-  "b_cota": -0.22767757792976762,
-  "b_ln_q7": -2.3518515877768706,
-  "b_ln_exp30": -2.3702437281412063
+  "a": 501.2170904142571,
+  "b_cota": -0.2276775779297677,
+  "b_ln_q7": -2.351851587776871,
+  "b_ln_exp30": -2.370243728141207
  },
  "periodos_apagon": [
   {
