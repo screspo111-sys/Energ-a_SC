@@ -1,7 +1,7 @@
 {
  "titulo": "Días estimados hasta que Mazar llegue a la cota crítica (2115 m s.n.m.)",
  "rotulo": "Estimación propia, no oficial",
- "generado": "2026-10-26T16:47-05:00",
+ "generado": "2026-10-26T17:50-05:00",
  "escenario_kpi": "actual",
  "dias": 129,
  "fecha": "2027-03-04",
@@ -238,7 +238,7 @@
   },
   {
    "clave": "k_molino_sopladora",
-   "valor": 237.69892070947864,
+   "valor": 237.69824865164748,
    "unidad": "MWh/día por m3/s",
    "tipo": "ESTIMADO",
    "fuente": "https://generacioncsr.celec.gob.ec/graficasproduccion/ (ORDS generacioncsr.celec.gob.ec:8443/ords/csr)",
