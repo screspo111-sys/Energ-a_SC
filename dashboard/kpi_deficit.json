@@ -1,7 +1,7 @@
 {
  "titulo": "Días estimados hasta que Mazar llegue a la cota crítica (2115 m s.n.m.)",
  "rotulo": "Estimación propia, no oficial",
- "generado": "2026-10-26T14:52-05:00",
+ "generado": "2026-10-26T15:50-05:00",
  "escenario_kpi": "actual",
  "dias": 129,
  "fecha": "2027-03-04",
@@ -49,10 +49,10 @@
   "rotulo": "Estimación propia, no oficial",
   "metodo": "Regresión logística (IRLS, L2 mínima) sobre cota Mazar, ln(afluente media 7 d), ln(mediana histórica del afluente de los 30 días siguientes, ±7 días del día del año). Etiqueta = apagones generalizados ese día o en los 30 siguientes.",
   "coeficientes": {
-   "a": 501.6594288204578,
+   "a": 501.6594288204577,
    "b_cota": -0.22788290051546767,
-   "b_ln_q7": -2.3572028947732266,
-   "b_ln_exp30": -2.367405705188629
+   "b_ln_q7": -2.3572028947732244,
+   "b_ln_exp30": -2.367405705188631
   },
   "periodos_apagon": [
    {
@@ -238,7 +238,7 @@
   },
   {
    "clave": "k_molino_sopladora",
-   "valor": 237.69889146745274,
+   "valor": 237.69892070908205,
    "unidad": "MWh/día por m3/s",
    "tipo": "ESTIMADO",
    "fuente": "https://generacioncsr.celec.gob.ec/graficasproduccion/ (ORDS generacioncsr.celec.gob.ec:8443/ords/csr)",
