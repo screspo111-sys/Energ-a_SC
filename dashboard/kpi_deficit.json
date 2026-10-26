@@ -1,7 +1,7 @@
 {
  "titulo": "Días estimados hasta que Mazar llegue a la cota crítica (2115 m s.n.m.)",
  "rotulo": "Estimación propia, no oficial",
- "generado": "2026-10-26T10:44-05:00",
+ "generado": "2026-10-26T11:58-05:00",
  "escenario_kpi": "actual",
  "dias": 129,
  "fecha": "2027-03-04",
@@ -49,10 +49,10 @@
   "rotulo": "Estimación propia, no oficial",
   "metodo": "Regresión logística (IRLS, L2 mínima) sobre cota Mazar, ln(afluente media 7 d), ln(mediana histórica del afluente de los 30 días siguientes, ±7 días del día del año). Etiqueta = apagones generalizados ese día o en los 30 siguientes.",
   "coeficientes": {
-   "a": 501.6594288204577,
+   "a": 501.6594288204578,
    "b_cota": -0.22788290051546767,
-   "b_ln_q7": -2.3572028947732244,
-   "b_ln_exp30": -2.367405705188631
+   "b_ln_q7": -2.3572028947732266,
+   "b_ln_exp30": -2.367405705188629
   },
   "periodos_apagon": [
    {
@@ -139,10 +139,10 @@
   "dias_a_min_por_tendencia": 131,
   "dias_a_2115_por_tendencia": 44,
   "fecha_cenace": "2026-10-24",
-  "demanda_base_MWh_dia": 96645,
-  "termica_actual_MWh_dia": 28459,
+  "demanda_base_MWh_dia": 96646,
+  "termica_actual_MWh_dia": 28452,
   "termica_max_supuesta_MWh_dia": 33270,
-  "holgura_termica_MWh_dia": 4811,
+  "holgura_termica_MWh_dia": 4818,
   "demanda_punta_max_MW": 5634.849999999999
  },
  "escenarios": {
@@ -270,7 +270,7 @@
   },
   {
    "clave": "resto_hidro_actual",
-   "valor": 57395.0,
+   "valor": 57427.0,
    "unidad": "MWh/día",
    "tipo": "DATO",
    "fuente": "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm",
@@ -294,7 +294,7 @@
   },
   {
    "clave": "termica_actual",
-   "valor": 28459.0,
+   "valor": 28452.0,
    "unidad": "MWh/día",
    "tipo": "DATO",
    "fuente": "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm",
@@ -326,7 +326,7 @@
   },
   {
    "clave": "demanda_base",
-   "valor": 96644.83333333333,
+   "valor": 96645.875,
    "unidad": "MWh/día",
    "tipo": "DATO",
    "fuente": "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm",
@@ -342,7 +342,7 @@
   },
   {
    "clave": "crecimiento_demanda_anual",
-   "valor": 0.06342423675595144,
+   "valor": 0.06343569865765653,
    "unidad": "fracción/año",
    "tipo": "ESTIMADO",
    "fuente": "CENACE Info Operativa vs indicadores",

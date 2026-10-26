@@ -1,19 +1,19 @@
 {
  "rotulo": "Datos públicos; SCADA preliminar de CENACE (sujeto a revisión)",
- "generado": "2026-10-26T10:44-05:00",
+ "generado": "2026-10-26T11:58-05:00",
  "fecha_dia_operativo": "2026-10-24",
  "fuente_diaria": "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm",
- "consultado": "2026-10-26T10:44:00-05:00",
+ "consultado": "2026-10-26T11:58:00-05:00",
  "generacion_MWh": {
   "hidraulica": {
-   "MWh": 66776.0,
-   "pct": 69.5
+   "MWh": 66808.0,
+   "pct": 69.52
   },
   "termica": {
-   "MWh": 28459.0,
-   "pct": 29.62,
+   "MWh": 28452.0,
+   "pct": 29.61,
    "detalle": {
-    "combustibles_liquidos_MCI_turbovapor": 25288.0,
+    "combustibles_liquidos_MCI_turbovapor": 25281.0,
     "gas_natural": 3171.0
    }
   },
@@ -52,19 +52,19 @@
   },
   "importacion": 83.0,
   "exportacion": 84.0,
-  "produccion_total_incl_importacion": 96080.0
+  "produccion_total_incl_importacion": 96105.0
  },
  "demanda": {
-  "energia_MWh": 95996.0,
+  "energia_MWh": 96021.0,
   "definicion": "Producción total (incluye importación) − exportación",
-  "max_MW": 4773.24,
+  "max_MW": 4773.01,
   "hora_max": "19:00",
-  "min_MW": 3260.46
+  "min_MW": 3260.68
  },
  "estatal_vs_privada": {
   "diario": {
    "hidro_CELEC_identificada_MWh": 42879.0,
-   "pct_produccion": 44.63,
+   "pct_produccion": 44.62,
    "centrales": [
     "Coca Codo",
     "Paute",
@@ -220,7 +220,7 @@
    ],
    "calculo_hoy": {
     "fecha": "2026-10-24",
-    "demanda_max_MW": 4773.24,
+    "demanda_max_MW": 4773.01,
     "potencia_nominal_SNI_MW": 8064.7,
     "importacion_nominal_MW": 650.0,
     "margen_reserva_nominal_pct": 69.0,
@@ -233,7 +233,7 @@
    "texto": "CENACE llama «R. no convencional» a eólica, solar, biomasa y biogás; la hidroeléctrica también es renovable pero se reporta aparte.",
    "hoy_MWh": 761.0,
    "hoy_pct": 0.79,
-   "renovable_total_incl_hidro_pct": 70.29,
+   "renovable_total_incl_hidro_pct": 70.31,
    "fuente": "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm"
   }
  }
