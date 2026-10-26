@@ -1,7 +1,7 @@
 {
  "titulo": "Días estimados hasta que Mazar llegue a la cota crítica (2115 m s.n.m.)",
  "rotulo": "Estimación propia, no oficial",
- "generado": "2026-10-26T02:05-05:00",
+ "generado": "2026-10-26T03:03-05:00",
  "escenario_kpi": "actual",
  "dias": 129,
  "fecha": "2027-03-04",
@@ -49,10 +49,10 @@
   "rotulo": "Estimación propia, no oficial",
   "metodo": "Regresión logística (IRLS, L2 mínima) sobre cota Mazar, ln(afluente media 7 d), ln(mediana histórica del afluente de los 30 días siguientes, ±7 días del día del año). Etiqueta = apagones generalizados ese día o en los 30 siguientes.",
   "coeficientes": {
-   "a": 501.6594288204519,
-   "b_cota": -0.22788290051546503,
-   "b_ln_q7": -2.3572028947732817,
-   "b_ln_exp30": -2.367405705188513
+   "a": 501.65942882045215,
+   "b_cota": -0.22788290051546517,
+   "b_ln_q7": -2.3572028947732795,
+   "b_ln_exp30": -2.3674057051885167
   },
   "periodos_apagon": [
    {
@@ -78,7 +78,7 @@
   "auc_en_muestra": 0.9822478799086987,
   "precision_cuando_p_mayor_20": 0.7269736842105263,
   "fecha_dato": "2026-10-25",
-  "prob_hoy": 0.658,
+  "prob_hoy": 0.657,
   "cota_hoy": 2123.58,
   "q7_hoy": 37.6,
   "exp30_hoy": 36.7,
@@ -114,7 +114,7 @@
   "prob_max_45d": {
    "seco": 0.9991,
    "normal": 0.9408,
-   "humedo": 0.6844,
+   "humedo": 0.6839,
    "actual": 0.8862
   },
   "limitaciones": [
@@ -238,7 +238,7 @@
   },
   {
    "clave": "k_molino_sopladora",
-   "valor": 237.69889164270862,
+   "valor": 237.69889153853552,
    "unidad": "MWh/día por m3/s",
    "tipo": "ESTIMADO",
    "fuente": "https://generacioncsr.celec.gob.ec/graficasproduccion/ (ORDS generacioncsr.celec.gob.ec:8443/ords/csr)",
@@ -246,7 +246,7 @@
   },
   {
    "clave": "turbinado_mazar_politica",
-   "valor": 31.47543950369234,
+   "valor": 31.475444160922457,
    "unidad": "m3/s",
    "tipo": "SUPUESTO",
    "fuente": "https://generacioncsr.celec.gob.ec/graficasproduccion/ (ORDS generacioncsr.celec.gob.ec:8443/ords/csr)",
