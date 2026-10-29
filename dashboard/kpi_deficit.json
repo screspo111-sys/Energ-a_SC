@@ -1,17 +1,17 @@
 {
  "titulo": "Días estimados hasta que Mazar llegue a la cota crítica (2115 m s.n.m.)",
  "rotulo": "Estimación propia, no oficial",
- "generado": "2026-10-28T23:00-05:00",
+ "generado": "2026-10-29T00:00-05:00",
  "escenario_kpi": "actual",
- "dias": 54,
+ "dias": 53,
  "fecha": "2026-12-21",
  "tipo_plazo_principal": "mazar_cota_critica_2115",
  "cota_critica": 2115.0,
- "dias_2115": 54,
+ "dias_2115": 53,
  "fecha_2115": "2026-12-21",
- "dias_mazar_min": 172,
+ "dias_mazar_min": 171,
  "fecha_mazar_min": "2027-04-18",
- "dias_deficit": 124,
+ "dias_deficit": 123,
  "fecha_deficit": "2027-03-01",
  "semaforo": "amarillo",
  "regla_semaforo": "Color según los días hasta que Mazar llegue a 2115 m (escenario caudal actual). Verde >60 d, amarillo 30–60 d, rojo <30 d.",
@@ -24,24 +24,24 @@
  },
  "dias_reserva": {
   "descripcion": "Días de reserva antes de que los apagones sean probables",
-  "dias_hasta_2115": 54,
+  "dias_hasta_2115": 53,
   "fecha_2115": "2026-12-21",
   "primer_dia_prob_mayor_50": {
    "seco": {
     "dias": 0,
-    "fecha": "2026-10-28"
+    "fecha": "2026-10-29"
    },
    "normal": {
     "dias": 0,
-    "fecha": "2026-10-28"
+    "fecha": "2026-10-29"
    },
    "humedo": {
     "dias": 0,
-    "fecha": "2026-10-28"
+    "fecha": "2026-10-29"
    },
    "actual": {
     "dias": 0,
-    "fecha": "2026-10-28"
+    "fecha": "2026-10-29"
    }
   }
  },
@@ -85,19 +85,19 @@
   "primer_dia_mayor_50": {
    "seco": {
     "dias": 0,
-    "fecha": "2026-10-28"
+    "fecha": "2026-10-29"
    },
    "normal": {
     "dias": 0,
-    "fecha": "2026-10-28"
+    "fecha": "2026-10-29"
    },
    "humedo": {
     "dias": 0,
-    "fecha": "2026-10-28"
+    "fecha": "2026-10-29"
    },
    "actual": {
     "dias": 0,
-    "fecha": "2026-10-28"
+    "fecha": "2026-10-29"
    }
   },
   "horizonte_dias": 45,
@@ -149,41 +149,41 @@
   "actual": {
    "nombre": "Caudal actual",
    "desc": "Afluente Mazar = media últimos 14 d (32.3 m³/s); resto hidro = nivel actual",
-   "dias_2115": 54,
+   "dias_2115": 53,
    "fecha_2115": "2026-12-21",
-   "dias_mazar_min": 172,
+   "dias_mazar_min": 171,
    "fecha_mazar_min": "2027-04-18",
-   "dias_deficit": 124,
+   "dias_deficit": 123,
    "fecha_deficit": "2027-03-01"
   },
   "seco": {
    "nombre": "Seco (P10)",
    "desc": "Afluente Mazar = percentil 10 histórico 2022–2026 (±15 d); resto hidro = P10 mensual",
-   "dias_2115": 20,
+   "dias_2115": 19,
    "fecha_2115": "2026-11-17",
-   "dias_mazar_min": 54,
+   "dias_mazar_min": 53,
    "fecha_mazar_min": "2026-12-21",
-   "dias_deficit": 4,
+   "dias_deficit": 3,
    "fecha_deficit": "2026-11-01"
   },
   "estiaje_2024": {
    "nombre": "Réplica estiaje 2024",
    "desc": "Afluentes del mismo día de 2024 y resto hidro del mismo mes de 2024",
-   "dias_2115": 21,
+   "dias_2115": 20,
    "fecha_2115": "2026-11-18",
    "dias_mazar_min": null,
    "fecha_mazar_min": null,
-   "dias_deficit": 4,
+   "dias_deficit": 3,
    "fecha_deficit": "2026-11-01"
   },
   "normal": {
    "nombre": "Normal (P50)",
    "desc": "Afluente Mazar = mediana histórica 2022–2026 (±15 d); resto hidro = mediana mensual",
-   "dias_2115": 42,
+   "dias_2115": 41,
    "fecha_2115": "2026-12-09",
    "dias_mazar_min": null,
    "fecha_mazar_min": null,
-   "dias_deficit": 7,
+   "dias_deficit": 6,
    "fecha_deficit": "2026-11-04"
   },
   "humedo": {
@@ -193,7 +193,7 @@
    "fecha_2115": null,
    "dias_mazar_min": null,
    "fecha_mazar_min": null,
-   "dias_deficit": 34,
+   "dias_deficit": 33,
    "fecha_deficit": "2026-12-01"
   }
  },
