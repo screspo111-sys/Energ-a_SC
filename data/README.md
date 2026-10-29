@@ -1,6 +1,6 @@
 # Ecuador — generación unificada
 
-Última actualización (local America/Guayaquil): **2026-10-28 21:12:06 -05**
+Última actualización (local America/Guayaquil): **2026-10-28 21:59:36 -05**
 
 ## Archivos
 
@@ -69,15 +69,15 @@ Columnas: fecha_hora_local, fecha_hora_utc, granularidad, ambito, codigo_planta,
     "reason": "Page is Plotly-embedded (binary y/customdata); no stable public tabular API. Skipped numeric ingest; HTML snapshot optional.",
     "errors": [],
     "http_status": 200,
-    "bytes": 266541,
-    "sha256": "0fcaf5649484b848fee1580c96a69341cbe329ccce6adc62e38107dc9ba08f9d",
-    "fetched_at_local": "2026-10-28T21:12:06-05:00",
+    "bytes": 266545,
+    "sha256": "b727cc479832adee54419d16ad0bf7586d0ee8dd5c8a3fae715cb8c1c7c2a00b",
+    "fetched_at_local": "2026-10-28T21:59:36-05:00",
     "n_rows": 1
   }
 }
 ```
 
-Total filas unificadas: **8361**
+Total filas unificadas: **8362**
 
 ## Refresh diario
 
