@@ -1,6 +1,6 @@
 {
-  "updated_at_local": "2026-10-29 21:10:26 -05",
-  "n_rows": 8505,
+  "updated_at_local": "2026-10-29 22:00:26 -05",
+  "n_rows": 8506,
   "csv": "data/generacion_unificada.csv",
   "parquet": "data/generacion_unificada.parquet",
   "meta_json": "data/collect_meta.json",
@@ -51,8 +51,8 @@
       "errors": [],
       "http_status": 200,
       "bytes": 266435,
-      "sha256": "d0985db74cffb1be27aa0a8d1891599fc2364f4d153a9cb80688ba71f976c10f",
-      "fetched_at_local": "2026-10-29T21:10:26-05:00",
+      "sha256": "a7582abe38623e2be0e34ea9fc15ac73b01b173084126086968cb23714d8faa8",
+      "fetched_at_local": "2026-10-29T22:00:25-05:00",
       "n_rows": 1
     }
   },
