@@ -1,7 +1,7 @@
 {
  "titulo": "Días estimados hasta que Mazar llegue a la cota crítica (2115 m s.n.m.)",
  "rotulo": "Estimación propia, no oficial",
- "generado": "2026-10-30T00:00-05:00",
+ "generado": "2026-10-30T00:58-05:00",
  "escenario_kpi": "actual",
  "dias": null,
  "fecha": null,
@@ -49,10 +49,10 @@
   "rotulo": "Estimación propia, no oficial",
   "metodo": "Regresión logística (IRLS, L2 mínima) sobre cota Mazar, ln(afluente media 7 d), ln(mediana histórica del afluente de los 30 días siguientes, ±7 días del día del año). Etiqueta = apagones generalizados ese día o en los 30 siguientes.",
   "coeficientes": {
-   "a": 505.5758018774958,
-   "b_cota": -0.2297249909311232,
-   "b_ln_q7": -2.3648773989196847,
-   "b_ln_exp30": -2.3646468862217476
+   "a": 505.59159588108037,
+   "b_cota": -0.22973223125171158,
+   "b_ln_q7": -2.364733490927833,
+   "b_ln_exp30": -2.364880394812822
   },
   "periodos_apagon": [
    {
@@ -75,12 +75,12 @@
   "n_entrenamiento": 1729,
   "n_positivos": 243,
   "ajuste_hasta": "2026-09-29",
-  "auc_en_muestra": 0.9821710449794793,
+  "auc_en_muestra": 0.982168275648162,
   "precision_cuando_p_mayor_20": 0.7260726072607261,
   "fecha_dato": "2026-10-29",
-  "prob_hoy": 0.69,
-  "cota_hoy": 2122.85,
-  "q7_hoy": 38.87,
+  "prob_hoy": 0.691,
+  "cota_hoy": 2122.86,
+  "q7_hoy": 38.77,
   "exp30_hoy": 35.63,
   "primer_dia_mayor_50": {
    "seco": {
@@ -105,17 +105,17 @@
    "fecha": "2026-10-06",
    "cota": 2131.75,
    "q7": 40.43,
-   "exp30": 34.2,
+   "exp30": 34.18,
    "prob_modelo_propio": 0.224,
-   "prob_coef_ecuanomia_con_nuestros_datos": 0.193,
+   "prob_coef_ecuanomia_con_nuestros_datos": 0.194,
    "prob_publicada_ecuanomia": 0.21,
    "fuente": "https://mazar.ecuanomia.com (data.json)"
   },
   "prob_max_45d": {
    "seco": 0.9988,
    "normal": 0.9464,
-   "humedo": 0.7001,
-   "actual": 0.8035
+   "humedo": 0.7009,
+   "actual": 0.8039
   },
   "limitaciones": [
    "Solo 3 crisis (2023, abril 2024, sep–dic 2024) para aprender: muy pocos eventos, la probabilidad es orientativa.",
@@ -125,17 +125,17 @@
  },
  "estado_actual": {
   "fecha_hidro": "2026-10-29",
-  "cota_mazar": 2122.85,
+  "cota_mazar": 2122.86,
   "cota_critica": 2115.0,
   "cota_min": 2098.0,
   "cota_max": 2153.0,
   "volumen_util_restante_hm3": 114.1,
   "volumen_sobre_2115_hm3": 38.4,
-  "afluente_mazar_dia_m3s": 63.0,
-  "afluente_mazar_7d_m3s": 38.9,
+  "afluente_mazar_dia_m3s": 62.3,
+  "afluente_mazar_7d_m3s": 38.8,
   "afluente_mazar_14d_m3s": 37.0,
   "turbinado_mazar_14d_m3s": 32.5,
-  "tendencia_cota_m_dia_14d": 0.041,
+  "tendencia_cota_m_dia_14d": 0.042,
   "dias_a_min_por_tendencia": null,
   "dias_a_2115_por_tendencia": null,
   "fecha_cenace": "2026-10-28",
@@ -238,7 +238,7 @@
   },
   {
    "clave": "k_molino_sopladora",
-   "valor": 237.67125458044796,
+   "valor": 237.67088042543034,
    "unidad": "MWh/día por m3/s",
    "tipo": "ESTIMADO",
    "fuente": "https://generacioncsr.celec.gob.ec/graficasproduccion/ (ORDS generacioncsr.celec.gob.ec:8443/ords/csr)",
@@ -246,7 +246,7 @@
   },
   {
    "clave": "turbinado_mazar_politica",
-   "valor": 32.520888286398595,
+   "valor": 32.52159079333233,
    "unidad": "m3/s",
    "tipo": "SUPUESTO",
    "fuente": "https://generacioncsr.celec.gob.ec/graficasproduccion/ (ORDS generacioncsr.celec.gob.ec:8443/ords/csr)",
@@ -262,7 +262,7 @@
   },
   {
    "clave": "caudal_afluente_mazar_actual",
-   "valor": 37.042079795609475,
+   "valor": 36.99346193499999,
    "unidad": "m3/s",
    "tipo": "DATO",
    "fuente": "https://generacioncsr.celec.gob.ec/graficasproduccion/ (ORDS generacioncsr.celec.gob.ec:8443/ords/csr)",
