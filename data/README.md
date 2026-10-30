@@ -1,6 +1,6 @@
 # Ecuador — generación unificada
 
-Última actualización (local America/Guayaquil): **2026-10-30 02:12:57 -05**
+Última actualización (local America/Guayaquil): **2026-10-30 03:13:41 -05**
 
 ## Archivos
 
@@ -25,7 +25,7 @@ Columnas: fecha_hora_local, fecha_hora_utc, granularidad, ambito, codigo_planta,
 ```json
 {
   "CELEC_SUR_ORDS": {
-    "n_rows": 1700,
+    "n_rows": 1703,
     "requests_ok": 75,
     "requests_total": 75,
     "fecha_min": "2026-10-16T01:00:00-05:00",
@@ -69,15 +69,15 @@ Columnas: fecha_hora_local, fecha_hora_utc, granularidad, ambito, codigo_planta,
     "reason": "Page is Plotly-embedded (binary y/customdata); no stable public tabular API. Skipped numeric ingest; HTML snapshot optional.",
     "errors": [],
     "http_status": 200,
-    "bytes": 265838,
-    "sha256": "c2bdec04176fdc6a222c987d067aa452eb21fb5e75b28794486d96f1a04a78fd",
-    "fetched_at_local": "2026-10-30T02:12:57-05:00",
+    "bytes": 265795,
+    "sha256": "ed10fb0d8ba706579b068b2a31c8a5e4ea09d91af0560f5f6ff4a9b43c2b704e",
+    "fetched_at_local": "2026-10-30T03:13:41-05:00",
     "n_rows": 1
   }
 }
 ```
 
-Total filas unificadas: **8545**
+Total filas unificadas: **8549**
 
 ## Refresh diario
 
