@@ -1,9 +1,9 @@
 {
  "rotulo": "Datos públicos; SCADA preliminar de CENACE (sujeto a revisión)",
- "generado": "2026-10-30T10:07-05:00",
+ "generado": "2026-10-30T11:01-05:00",
  "fecha_dia_operativo": "2026-10-28",
  "fuente_diaria": "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm",
- "consultado": "2026-10-30T10:07:00-05:00",
+ "consultado": "2026-10-30T11:01:00-05:00",
  "generacion_MWh": {
   "hidraulica": {
    "MWh": 67798.0,
@@ -57,9 +57,9 @@
  "demanda": {
   "energia_MWh": 93914.0,
   "definicion": "Producción total (incluye importación) − exportación",
-  "max_MW": 4842.22,
+  "max_MW": 4790.5,
   "hora_max": "19:30",
-  "min_MW": 3145.92
+  "min_MW": 3097.3
  },
  "estatal_vs_privada": {
   "diario": {
@@ -220,11 +220,11 @@
    ],
    "calculo_hoy": {
     "fecha": "2026-10-28",
-    "demanda_max_MW": 4842.22,
+    "demanda_max_MW": 4790.5,
     "potencia_nominal_SNI_MW": 8064.7,
     "importacion_nominal_MW": 650.0,
-    "margen_reserva_nominal_pct": 66.5,
-    "margen_reserva_nominal_con_importacion_pct": 80.0,
+    "margen_reserva_nominal_pct": 68.3,
+    "margen_reserva_nominal_con_importacion_pct": 81.9,
     "formula": "(potencia nominal SNI − demanda máxima del día) / demanda máxima del día",
     "advertencia": "Es un TECHO teórico: CENACE no publica la potencia DISPONIBLE diaria. La disponible real es menor por mantenimientos, térmicas indisponibles y, sobre todo, por falta de agua en las hidroeléctricas. No equivale a la reserva operativa de CENACE."
    }
