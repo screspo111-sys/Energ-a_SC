@@ -1,6 +1,6 @@
 {
-  "updated_at_local": "2026-10-30 21:07:24 -05",
-  "n_rows": 8649,
+  "updated_at_local": "2026-10-30 21:58:49 -05",
+  "n_rows": 8650,
   "csv": "data/generacion_unificada.csv",
   "parquet": "data/generacion_unificada.parquet",
   "meta_json": "data/collect_meta.json",
@@ -50,9 +50,9 @@
       "reason": "Page is Plotly-embedded (binary y/customdata); no stable public tabular API. Skipped numeric ingest; HTML snapshot optional.",
       "errors": [],
       "http_status": 200,
-      "bytes": 266473,
-      "sha256": "6bf4f129cba0e2ad5fc041d6fa926eec7b82a78468fd550b9a6cf730f5d74253",
-      "fetched_at_local": "2026-10-30T21:07:24-05:00",
+      "bytes": 266484,
+      "sha256": "81b5471015df18a54b9c611cdb7bf683d6ec3bb409f90f5916e6cadb42ffce3e",
+      "fetched_at_local": "2026-10-30T21:58:49-05:00",
       "n_rows": 1
     }
   },
