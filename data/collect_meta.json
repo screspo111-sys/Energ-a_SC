@@ -1,12 +1,12 @@
 {
-  "updated_at_local": "2026-11-02 13:08:20 -05",
-  "n_rows": 9032,
+  "updated_at_local": "2026-11-02 14:10:31 -05",
+  "n_rows": 9036,
   "csv": "data/generacion_unificada.csv",
   "parquet": "data/generacion_unificada.parquet",
   "meta_json": "data/collect_meta.json",
   "sources": {
     "CELEC_SUR_ORDS": {
-      "n_rows": 1749,
+      "n_rows": 1752,
       "requests_ok": 75,
       "requests_total": 75,
       "fecha_min": "2026-10-19T01:00:00-05:00",
@@ -50,9 +50,9 @@
       "reason": "Page is Plotly-embedded (binary y/customdata); no stable public tabular API. Skipped numeric ingest; HTML snapshot optional.",
       "errors": [],
       "http_status": 200,
-      "bytes": 265901,
-      "sha256": "a5a288b535b3b81a47968ca260a4adb0b818839d571e054662f0773877419878",
-      "fetched_at_local": "2026-11-02T13:08:20-05:00",
+      "bytes": 265898,
+      "sha256": "00648e7e0638ba06278a22e50b6ac05cdac30dff91f5a5caf31b940847d6455f",
+      "fetched_at_local": "2026-11-02T14:10:31-05:00",
       "n_rows": 1
     }
   },
