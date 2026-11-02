@@ -2,10 +2,10 @@
  "rotulo": "Estimación propia, no oficial",
  "metodo": "Regresión logística (IRLS, L2 mínima) sobre cota Mazar, ln(afluente media 7 d), ln(mediana histórica del afluente de los 30 días siguientes, ±7 días del día del año). Etiqueta = apagones generalizados ese día o en los 30 siguientes.",
  "coeficientes": {
-  "a": 505.80670195230306,
-  "b_cota": -0.229887812221303,
-  "b_ln_q7": -2.4017229017081636,
-  "b_ln_exp30": -2.3065911501167062
+  "a": 505.80702114629213,
+  "b_cota": -0.22988797218657478,
+  "b_ln_q7": -2.4017134028208194,
+  "b_ln_exp30": -2.3065946287429333
  },
  "periodos_apagon": [
   {
@@ -33,7 +33,7 @@
  "fecha_dato": "2026-11-01",
  "prob_hoy": 0.411,
  "cota_hoy": 2125.31,
- "q7_hoy": 49.62,
+ "q7_hoy": 49.6,
  "exp30_hoy": 35.11,
  "primer_dia_mayor_50": {
   "seco": {
@@ -61,8 +61,8 @@
  "prob_max_45d": {
   "seco": 0.9911,
   "normal": 0.7385,
-  "humedo": 0.3837,
-  "actual": 0.4204
+  "humedo": 0.384,
+  "actual": 0.421
  },
  "limitaciones": [
   "Solo 3 crisis (2023, abril 2024, sep–dic 2024) para aprender: muy pocos eventos, la probabilidad es orientativa.",
