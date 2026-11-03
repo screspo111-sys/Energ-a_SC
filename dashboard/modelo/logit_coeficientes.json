@@ -2,10 +2,10 @@
  "rotulo": "Estimación propia, no oficial",
  "metodo": "Regresión logística (IRLS, L2 mínima) sobre cota Mazar, ln(afluente media 7 d), ln(mediana histórica del afluente de los 30 días siguientes, ±7 días del día del año). Etiqueta = apagones generalizados ese día o en los 30 siguientes.",
  "coeficientes": {
-  "a": 505.731305587162,
-  "b_cota": -0.22986640817949475,
-  "b_ln_q7": -2.4184168660983025,
-  "b_ln_exp30": -2.2853994687896706
+  "a": 505.73153221178137,
+  "b_cota": -0.2298665222862939,
+  "b_ln_q7": -2.418409949463161,
+  "b_ln_exp30": -2.285401838665193
  },
  "periodos_apagon": [
   {
@@ -31,9 +31,9 @@
  "auc_en_muestra": 0.981920623083934,
  "precision_cuando_p_mayor_20": 0.7189542483660131,
  "fecha_dato": "2026-11-02",
- "prob_hoy": 0.317,
- "cota_hoy": 2126.39,
- "q7_hoy": 52.79,
+ "prob_hoy": 0.316,
+ "cota_hoy": 2126.41,
+ "q7_hoy": 52.77,
  "exp30_hoy": 34.95,
  "primer_dia_mayor_50": {
   "seco": {
@@ -59,10 +59,10 @@
   "fuente": "https://mazar.ecuanomia.com (data.json)"
  },
  "prob_max_45d": {
-  "seco": 0.9785,
-  "normal": 0.5834,
-  "humedo": 0.2808,
-  "actual": 0.3013
+  "seco": 0.9784,
+  "normal": 0.5823,
+  "humedo": 0.2802,
+  "actual": 0.3019
  },
  "limitaciones": [
   "Solo 3 crisis (2023, abril 2024, sep–dic 2024) para aprender: muy pocos eventos, la probabilidad es orientativa.",
