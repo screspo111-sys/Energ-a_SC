@@ -1,32 +1,32 @@
 {
- "generado": "2026-11-04T08:21-05:00",
+ "generado": "2026-11-04T10:03-05:00",
  "nota": "Lecturas horarias SCADA CELEC SUR (pointValues); día en curso parcial",
  "series": {
   "MAZAR_caudal_m3s": {
-   "fecha_hora_local": "2026-11-04T08:00:00-05:00",
-   "valor": 33.849,
-   "promedio_horas_disponibles": 42.396,
-   "n_horas": 8,
+   "fecha_hora_local": "2026-11-04T09:00:00-05:00",
+   "valor": 37.306,
+   "promedio_horas_disponibles": 41.831,
+   "n_horas": 9,
    "cierre_ultimo_dia_completo": {
     "fecha_hora_local": "2026-11-03T23:00:00-05:00",
     "valor": 43.888
    }
   },
   "MAZAR_cota_msnm": {
-   "fecha_hora_local": "2026-11-04T08:00:00-05:00",
-   "valor": 2127.83,
-   "promedio_horas_disponibles": 2127.742,
-   "n_horas": 8,
+   "fecha_hora_local": "2026-11-04T09:00:00-05:00",
+   "valor": 2127.86,
+   "promedio_horas_disponibles": 2127.755,
+   "n_horas": 9,
    "cierre_ultimo_dia_completo": {
     "fecha_hora_local": "2026-11-03T23:00:00-05:00",
     "valor": 2127.58
    }
   },
   "CUENCA_PAUTE_caudal_m3s": {
-   "fecha_hora_local": "2026-11-04T08:00:00-05:00",
-   "valor": 64.422,
-   "promedio_horas_disponibles": 64.607,
-   "n_horas": 8,
+   "fecha_hora_local": "2026-11-04T09:00:00-05:00",
+   "valor": 59.047,
+   "promedio_horas_disponibles": 63.989,
+   "n_horas": 9,
    "cierre_ultimo_dia_completo": {
     "fecha_hora_local": "2026-11-03T23:00:00-05:00",
     "valor": 63.525
