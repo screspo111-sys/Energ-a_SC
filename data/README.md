@@ -1,6 +1,6 @@
 # Ecuador — generación unificada
 
-Última actualización (local America/Guayaquil): **2026-11-04 12:08:34 -05**
+Última actualización (local America/Guayaquil): **2026-11-04 13:04:21 -05**
 
 ## Archivos
 
@@ -41,18 +41,19 @@ Columnas: fecha_hora_local, fecha_hora_utc, granularidad, ambito, codigo_planta,
     "days": 14
   },
   "CENACE_indicadores": {
-    "fuente": "CENACE_indicadores",
-    "url": "https://www.cenace.gob.ec/wp-content/plugins/ez-addons/data/indicadores.xlsx",
-    "path": "/home/runner/work/Energ-a_SC/Energ-a_SC/raw/indicadores.xlsx",
-    "ok": true,
-    "errors": [],
-    "n_rows": 1444,
-    "fecha_min": "2010-01-01T00:00:00-05:00",
-    "fecha_max": "2026-07-01T00:00:00-05:00"
+    "ok": false,
+    "error": "HTTPSConnectionPool(host='www.cenace.gob.ec', port=443): Read timed out. (read timeout=60)"
   },
   "ARCONEL_BNEE": {
-    "ok": false,
-    "error": "503 Server Error: Service Unavailable for url: https://arconel.gob.ec/balance-nacional-de-energia-electrica/"
+    "fuente": "ARCONEL_BNEE",
+    "url": "https://arconel.gob.ec/wp-content/uploads/downloads/2026/10/BNEE_julio_2026.xls",
+    "path": "/home/runner/work/Energ-a_SC/Energ-a_SC/raw/BNEE_julio_2026.xls",
+    "page": "https://arconel.gob.ec/balance-nacional-de-energia-electrica/",
+    "ok": true,
+    "errors": [],
+    "titulo": "Balance Nacional de Energía Eléctrica (BNEE) - Año móvil con corte a julio 2026 (1)",
+    "corte": "julio_2026",
+    "n_rows": 70
   },
   "CENACE_InfoOperativa": {
     "fuente": "CENACE_InfoOperativa",
@@ -64,13 +65,13 @@ Columnas: fecha_hora_local, fecha_hora_utc, granularidad, ambito, codigo_planta,
     "http_status": 200,
     "bytes": 265691,
     "sha256": "b00e6a99dfa972190b66c3417d8e79972475191691ce0a5ef4dc3f4cc2d81d7a",
-    "fetched_at_local": "2026-11-04T12:08:34-05:00",
+    "fetched_at_local": "2026-11-04T13:04:21-05:00",
     "n_rows": 1
   }
 }
 ```
 
-Total filas unificadas: **9309**
+Total filas unificadas: **9310**
 
 ## Refresh diario
 

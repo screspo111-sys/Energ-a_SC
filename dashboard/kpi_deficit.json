@@ -1,7 +1,7 @@
 {
  "titulo": "Días estimados hasta que Mazar llegue a la cota crítica (2115 m s.n.m.)",
  "rotulo": "Estimación propia, no oficial",
- "generado": "2026-11-04T12:09-05:00",
+ "generado": "2026-11-04T13:05-05:00",
  "escenario_kpi": "actual",
  "dias": null,
  "fecha": null,
@@ -41,9 +41,9 @@
   "metodo": "Regresión logística (IRLS, L2 mínima) sobre cota Mazar, ln(afluente media 7 d), ln(mediana histórica del afluente de los 30 días siguientes, ±7 días del día del año). Etiqueta = apagones generalizados ese día o en los 30 siguientes.",
   "coeficientes": {
    "a": 505.8661873562267,
-   "b_cota": -0.22994172920741374,
-   "b_ln_q7": -2.4302236042161884,
-   "b_ln_exp30": -2.2695907509512754
+   "b_cota": -0.2299417292074137,
+   "b_ln_q7": -2.4302236042161893,
+   "b_ln_exp30": -2.2695907509512745
   },
   "periodos_apagon": [
    {
