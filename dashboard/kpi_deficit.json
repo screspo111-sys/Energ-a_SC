@@ -1,7 +1,7 @@
 {
  "titulo": "Días estimados hasta que Mazar llegue a la cota crítica (2115 m s.n.m.)",
  "rotulo": "Estimación propia, no oficial",
- "generado": "2026-11-04T15:09-05:00",
+ "generado": "2026-11-04T16:04-05:00",
  "escenario_kpi": "actual",
  "dias": null,
  "fecha": null,
@@ -121,7 +121,7 @@
   "dias_a_min_por_tendencia": null,
   "dias_a_2115_por_tendencia": null,
   "fecha_cenace": "2026-11-03",
-  "demanda_base_MWh_dia": 87814,
+  "demanda_base_MWh_dia": 88358,
   "termica_actual_MWh_dia": 23372,
   "termica_max_supuesta_MWh_dia": 33270,
   "holgura_termica_MWh_dia": 9898,
@@ -308,7 +308,7 @@
   },
   {
    "clave": "demanda_base",
-   "valor": 87814.33333333333,
+   "valor": 88358.0,
    "unidad": "MWh/día",
    "tipo": "DATO",
    "fuente": "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm",
@@ -324,7 +324,7 @@
   },
   {
    "clave": "crecimiento_demanda_anual",
-   "valor": -0.07143738289355983,
+   "valor": -0.06568856577372517,
    "unidad": "fracción/año",
    "tipo": "ESTIMADO",
    "fuente": "CENACE Info Operativa vs indicadores",
