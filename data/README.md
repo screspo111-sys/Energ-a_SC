@@ -1,6 +1,6 @@
 # Ecuador — generación unificada
 
-Última actualización (local America/Guayaquil): **2026-11-04 13:04:21 -05**
+Última actualización (local America/Guayaquil): **2026-11-04 14:13:28 -05**
 
 ## Archivos
 
@@ -25,7 +25,7 @@ Columnas: fecha_hora_local, fecha_hora_utc, granularidad, ambito, codigo_planta,
 ```json
 {
   "CELEC_SUR_ORDS": {
-    "n_rows": 1746,
+    "n_rows": 1752,
     "requests_ok": 75,
     "requests_total": 75,
     "fecha_min": "2026-10-21T01:00:00-05:00",
@@ -41,8 +41,14 @@ Columnas: fecha_hora_local, fecha_hora_utc, granularidad, ambito, codigo_planta,
     "days": 14
   },
   "CENACE_indicadores": {
-    "ok": false,
-    "error": "HTTPSConnectionPool(host='www.cenace.gob.ec', port=443): Read timed out. (read timeout=60)"
+    "fuente": "CENACE_indicadores",
+    "url": "https://www.cenace.gob.ec/wp-content/plugins/ez-addons/data/indicadores.xlsx",
+    "path": "/home/runner/work/Energ-a_SC/Energ-a_SC/raw/indicadores.xlsx",
+    "ok": true,
+    "errors": [],
+    "n_rows": 1444,
+    "fecha_min": "2010-01-01T00:00:00-05:00",
+    "fecha_max": "2026-07-01T00:00:00-05:00"
   },
   "ARCONEL_BNEE": {
     "fuente": "ARCONEL_BNEE",
@@ -63,15 +69,15 @@ Columnas: fecha_hora_local, fecha_hora_utc, granularidad, ambito, codigo_planta,
     "reason": "Page is Plotly-embedded (binary y/customdata); no stable public tabular API. Skipped numeric ingest; HTML snapshot optional.",
     "errors": [],
     "http_status": 200,
-    "bytes": 265691,
-    "sha256": "b00e6a99dfa972190b66c3417d8e79972475191691ce0a5ef4dc3f4cc2d81d7a",
-    "fetched_at_local": "2026-11-04T13:04:21-05:00",
+    "bytes": 265846,
+    "sha256": "b0db156bd8a6e59f8ab37cf953c8f3beb3ebe9dedac11cd1a5fab9588d3b000a",
+    "fetched_at_local": "2026-11-04T14:13:28-05:00",
     "n_rows": 1
   }
 }
 ```
 
-Total filas unificadas: **9310**
+Total filas unificadas: **9317**
 
 ## Refresh diario
 
