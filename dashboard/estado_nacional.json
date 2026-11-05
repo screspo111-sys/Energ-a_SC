@@ -1,9 +1,9 @@
 {
  "rotulo": "Datos públicos; SCADA preliminar de CENACE (sujeto a revisión)",
- "generado": "2026-11-05T12:30-05:00",
+ "generado": "2026-11-05T14:11-05:00",
  "fecha_dia_operativo": "2026-11-04",
  "fuente_diaria": "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm",
- "consultado": "2026-11-05T12:30:00-05:00",
+ "consultado": "2026-11-05T14:11:00-05:00",
  "generacion_MWh": {
   "hidraulica": {
    "MWh": 69194.0,
@@ -113,82 +113,82 @@
   "fuente": "https://arconel.gob.ec/wp-content/uploads/downloads/2026/10/BNEE_julio_2026.xls",
   "por_tecnologia": {
    "Nacional (Renovable + No Renovable)": {
-    "potencia_nominal_total_MW": 9529.79,
-    "potencia_nominal_SNI_MW": 8064.7,
-    "produccion_anio_movil_GWh": 40726.9,
-    "produccion_anio_movil_SNI_GWh": 36213.0
+    "potencia_nominal_total_MW": 9430.99,
+    "potencia_nominal_SNI_MW": 7964.7,
+    "produccion_anio_movil_GWh": 41265.7,
+    "produccion_anio_movil_SNI_GWh": 36730.6
    },
    "Renovable": {
     "potencia_nominal_total_MW": 5641.31,
     "potencia_nominal_SNI_MW": 5628.79,
-    "produccion_anio_movil_GWh": 29475.7,
-    "produccion_anio_movil_SNI_GWh": 29463.6
+    "produccion_anio_movil_GWh": 29661.2,
+    "produccion_anio_movil_SNI_GWh": 29648.9
    },
    "Hidráulica": {
     "potencia_nominal_total_MW": 5373.86,
     "potencia_nominal_SNI_MW": 5370.66,
-    "produccion_anio_movil_GWh": 28823.8,
-    "produccion_anio_movil_SNI_GWh": 28818.9
+    "produccion_anio_movil_GWh": 29007.4,
+    "produccion_anio_movil_SNI_GWh": 29002.1
    },
    "Eólica": {
     "potencia_nominal_total_MW": 71.15,
     "potencia_nominal_SNI_MW": 66.5,
-    "produccion_anio_movil_GWh": 199.3,
-    "produccion_anio_movil_SNI_GWh": 197.4
+    "produccion_anio_movil_GWh": 205.0,
+    "produccion_anio_movil_SNI_GWh": 203.4
    },
    "Fotovoltaica": {
     "potencia_nominal_total_MW": 29.13,
     "potencia_nominal_SNI_MW": 24.46,
-    "produccion_anio_movil_GWh": 38.6,
-    "produccion_anio_movil_SNI_GWh": 33.3
+    "produccion_anio_movil_GWh": 38.8,
+    "produccion_anio_movil_SNI_GWh": 33.6
    },
    "Biomasa": {
     "potencia_nominal_total_MW": 156.05,
     "potencia_nominal_SNI_MW": 156.05,
-    "produccion_anio_movil_GWh": 360.7,
-    "produccion_anio_movil_SNI_GWh": 360.7
+    "produccion_anio_movil_GWh": 355.6,
+    "produccion_anio_movil_SNI_GWh": 355.6
    },
    "Biogas": {
     "potencia_nominal_total_MW": 11.12,
     "potencia_nominal_SNI_MW": 11.12,
-    "produccion_anio_movil_GWh": 53.2,
-    "produccion_anio_movil_SNI_GWh": 53.2
+    "produccion_anio_movil_GWh": 54.3,
+    "produccion_anio_movil_SNI_GWh": 54.3
    },
    "No Renovable": {
-    "potencia_nominal_total_MW": 3888.49,
-    "potencia_nominal_SNI_MW": 2435.91,
-    "produccion_anio_movil_GWh": 11251.2,
-    "produccion_anio_movil_SNI_GWh": 6749.4
+    "potencia_nominal_total_MW": 3789.69,
+    "potencia_nominal_SNI_MW": 2335.91,
+    "produccion_anio_movil_GWh": 11604.5,
+    "produccion_anio_movil_SNI_GWh": 7081.8
    },
    "MCI": {
-    "potencia_nominal_total_MW": 2467.65,
-    "potencia_nominal_SNI_MW": 1154.75,
-    "produccion_anio_movil_GWh": 7848.9,
-    "produccion_anio_movil_SNI_GWh": 3714.0
+    "potencia_nominal_total_MW": 2368.85,
+    "potencia_nominal_SNI_MW": 1054.75,
+    "produccion_anio_movil_GWh": 8036.1,
+    "produccion_anio_movil_SNI_GWh": 3881.8
    },
    "Turbogas": {
     "potencia_nominal_total_MW": 960.71,
     "potencia_nominal_SNI_MW": 836.66,
-    "produccion_anio_movil_GWh": 1557.0,
-    "produccion_anio_movil_SNI_GWh": 1198.0
+    "produccion_anio_movil_GWh": 1678.5,
+    "produccion_anio_movil_SNI_GWh": 1318.5
    },
    "Turbovapor": {
     "potencia_nominal_total_MW": 460.13,
     "potencia_nominal_SNI_MW": 444.5,
-    "produccion_anio_movil_GWh": 1845.2,
-    "produccion_anio_movil_SNI_GWh": 1837.3
+    "produccion_anio_movil_GWh": 1889.9,
+    "produccion_anio_movil_SNI_GWh": 1881.5
    },
    "Importación": {
     "potencia_nominal_total_MW": 650.0,
     "potencia_nominal_SNI_MW": 650.0,
-    "produccion_anio_movil_GWh": 456.6,
-    "produccion_anio_movil_SNI_GWh": 456.6
+    "produccion_anio_movil_GWh": 522.1,
+    "produccion_anio_movil_SNI_GWh": 522.1
    },
    "Colombia": {
     "potencia_nominal_total_MW": 540.0,
     "potencia_nominal_SNI_MW": 540.0,
-    "produccion_anio_movil_GWh": 456.6,
-    "produccion_anio_movil_SNI_GWh": 456.6
+    "produccion_anio_movil_GWh": 522.1,
+    "produccion_anio_movil_SNI_GWh": 522.1
    },
    "Perú": {
     "potencia_nominal_total_MW": 110.0,
@@ -221,10 +221,10 @@
    "calculo_hoy": {
     "fecha": "2026-11-04",
     "demanda_max_MW": 4895.7699999999995,
-    "potencia_nominal_SNI_MW": 8064.7,
+    "potencia_nominal_SNI_MW": 7964.7,
     "importacion_nominal_MW": 650.0,
-    "margen_reserva_nominal_pct": 64.7,
-    "margen_reserva_nominal_con_importacion_pct": 78.0,
+    "margen_reserva_nominal_pct": 62.7,
+    "margen_reserva_nominal_con_importacion_pct": 76.0,
     "formula": "(potencia nominal SNI − demanda máxima del día) / demanda máxima del día",
     "advertencia": "Es un TECHO teórico: CENACE no publica la potencia DISPONIBLE diaria. La disponible real es menor por mantenimientos, térmicas indisponibles y, sobre todo, por falta de agua en las hidroeléctricas. No equivale a la reserva operativa de CENACE."
    }
