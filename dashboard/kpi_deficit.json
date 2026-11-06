@@ -1,7 +1,7 @@
 {
  "titulo": "Días estimados hasta que Mazar llegue a la cota crítica (2115 m s.n.m.)",
  "rotulo": "Estimación propia, no oficial",
- "generado": "2026-11-06T14:07-05:00",
+ "generado": "2026-11-06T15:00-05:00",
  "escenario_kpi": "actual",
  "dias": null,
  "fecha": null,
@@ -45,7 +45,7 @@
   "coeficientes": {
    "a": 506.06317630873804,
    "b_cota": -0.2300569466295901,
-   "b_ln_q7": -2.4516046098642446,
+   "b_ln_q7": -2.451604609864246,
    "b_ln_exp30": -2.2403502272561635
   },
   "periodos_apagon": [
