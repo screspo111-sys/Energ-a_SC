@@ -1,9 +1,9 @@
 {
  "rotulo": "Datos públicos; SCADA preliminar de CENACE (sujeto a revisión)",
- "generado": "2026-11-06T15:58-05:00",
+ "generado": "2026-11-06T16:53-05:00",
  "fecha_dia_operativo": "2026-11-05",
  "fuente_diaria": "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm",
- "consultado": "2026-11-06T15:58:00-05:00",
+ "consultado": "2026-11-06T16:53:00-05:00",
  "generacion_MWh": {
   "hidraulica": {
    "MWh": 74489.0,
@@ -24,29 +24,29 @@
   },
   "desglose_RNC_estimado_dia_MWh": {
    "valores": {
-    "eolica": 193,
-    "fotovoltaica": 21,
-    "biomasa": 233,
-    "biogas": 36
+    "eolica": 179,
+    "fotovoltaica": 24,
+    "biomasa": 243,
+    "biogas": 37
    },
-   "metodo": "Total RNC del día × participación de cada tecnología en 2026-07 (CENACE indicadores). ESTIMADO, no dato diario.",
-   "mes_referencia": "2026-07",
+   "metodo": "Total RNC del día × participación de cada tecnología en 2026-09 (CENACE indicadores). ESTIMADO, no dato diario.",
+   "mes_referencia": "2026-09",
    "mes_GWh": {
     "eolica": {
-     "GWh": 25.25,
-     "pct_de_RNC": 40.0
+     "GWh": 20.26,
+     "pct_de_RNC": 37.1
     },
     "fotovoltaica": {
-     "GWh": 2.7,
-     "pct_de_RNC": 4.3
+     "GWh": 2.66,
+     "pct_de_RNC": 4.9
     },
     "biomasa": {
-     "GWh": 30.5,
-     "pct_de_RNC": 48.3
+     "GWh": 27.52,
+     "pct_de_RNC": 50.4
     },
     "biogas": {
-     "GWh": 4.75,
-     "pct_de_RNC": 7.5
+     "GWh": 4.14,
+     "pct_de_RNC": 7.6
     }
    }
   },

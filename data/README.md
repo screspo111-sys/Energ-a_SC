@@ -1,6 +1,6 @@
 # Ecuador — generación unificada
 
-Última actualización (local America/Guayaquil): **2026-11-06 15:57:52 -05**
+Última actualización (local America/Guayaquil): **2026-11-06 16:53:16 -05**
 
 ## Archivos
 
@@ -25,11 +25,11 @@ Columnas: fecha_hora_local, fecha_hora_utc, granularidad, ambito, codigo_planta,
 ```json
 {
   "CELEC_SUR_ORDS": {
-    "n_rows": 1755,
+    "n_rows": 1760,
     "requests_ok": 75,
     "requests_total": 75,
     "fecha_min": "2026-10-23T01:00:00-05:00",
-    "fecha_max": "2026-11-06T15:00:00-05:00",
+    "fecha_max": "2026-11-06T16:00:00-05:00",
     "failures": [],
     "plants": [
       "MAZAR",
@@ -46,9 +46,9 @@ Columnas: fecha_hora_local, fecha_hora_utc, granularidad, ambito, codigo_planta,
     "path": "/home/runner/work/Energ-a_SC/Energ-a_SC/raw/indicadores.xlsx",
     "ok": true,
     "errors": [],
-    "n_rows": 1444,
+    "n_rows": 1458,
     "fecha_min": "2010-01-01T00:00:00-05:00",
-    "fecha_max": "2026-07-01T00:00:00-05:00"
+    "fecha_max": "2026-09-01T00:00:00-05:00"
   },
   "ARCONEL_BNEE": {
     "fuente": "ARCONEL_BNEE",
@@ -69,15 +69,15 @@ Columnas: fecha_hora_local, fecha_hora_utc, granularidad, ambito, codigo_planta,
     "reason": "Page is Plotly-embedded (binary y/customdata); no stable public tabular API. Skipped numeric ingest; HTML snapshot optional.",
     "errors": [],
     "http_status": 200,
-    "bytes": 266607,
-    "sha256": "323e25e808d2b587af5cd69f57546f17f628d66343a94096f0f512a5e919541e",
-    "fetched_at_local": "2026-11-06T15:57:52-05:00",
+    "bytes": 266584,
+    "sha256": "016ed1d36f7ec2c65003838cad1f2c75e83ffde200a862a0f50cfcc4f213dc80",
+    "fetched_at_local": "2026-11-06T16:53:15-05:00",
     "n_rows": 1
   }
 }
 ```
 
-Total filas unificadas: **9672**
+Total filas unificadas: **9692**
 
 ## Refresh diario
 

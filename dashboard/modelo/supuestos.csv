@@ -7,7 +7,7 @@ turbinado_mazar_politica,20.150702757412336,m3/s,SUPUESTO,https://generacioncsr.
 transicion_escenarios,14,días,SUPUESTO,propio,Los escenarios seco/normal/húmedo/2024 pasan linealmente del caudal actual al del escenario en 14 días
 caudal_afluente_mazar_actual,44.96762522051501,m3/s,DATO,https://generacioncsr.celec.gob.ec/graficasproduccion/ (ORDS generacioncsr.celec.gob.ec:8443/ords/csr),Promedio 2026-10-23–2026-11-05
 resto_hidro_actual,59247.0,MWh/día,DATO,https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,"Hidráulica SNI − Paute − Sopladora − Mazar, día 2026-11-05 (incluye Coca Codo 19976 MWh)"
-resto_hidro_mensual_hist,2023-01–2026-07,MWh/día,DATO,CENACE indicadores (hidro mensual) − CELEC SUR (Mazar+Molino+Sopladora),P10/P85 por mes calendario con 3–4 años: P10≈mínimo (2024)
+resto_hidro_mensual_hist,2023-01–2026-09,MWh/día,DATO,CENACE indicadores (hidro mensual) − CELEC SUR (Mazar+Molino+Sopladora),P10/P85 por mes calendario con 3–4 años: P10≈mínimo (2024)
 termica_max_disponible,33270.184990619025,MWh/día,SUPUESTO,CENACE indicadores (máximo mensual observado: 2024-11),No hay serie pública de potencia térmica DISPONIBLE; se usa la energía térmica media diaria máxima lograda (nov-2024). Nominal SNI térmica BNEE jul-2026 = 2436 MW (MCI 1155 + turbogas 837 + turbovapor 445).
 termica_actual,25605.0,MWh/día,DATO,https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm,día 2026-11-05
 importacion_disponible,1250.8337068493151,MWh/día,SUPUESTO,https://arconel.gob.ec/wp-content/uploads/downloads/2026/10/BNEE_julio_2026.xls,"Media del año móvil a jul-2026 (456,6 GWh/año, Colombia). Capacidad nominal enlaces 650 MW pero la disponibilidad depende de Colombia/Perú."
