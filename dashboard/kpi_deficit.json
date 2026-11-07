@@ -1,7 +1,7 @@
 {
  "titulo": "Días estimados hasta que Mazar llegue a la cota crítica (2115 m s.n.m.)",
  "rotulo": "Estimación propia, no oficial",
- "generado": "2026-11-07T00:02-05:00",
+ "generado": "2026-11-07T06:47-05:00",
  "escenario_kpi": "actual",
  "dias": null,
  "fecha": null,
@@ -43,10 +43,10 @@
   "rotulo": "Estimación propia, no oficial",
   "metodo": "Regresión logística (IRLS, L2 mínima) sobre cota Mazar, ln(afluente media 7 d), ln(mediana histórica del afluente de los 30 días siguientes, ±7 días del día del año). Etiqueta = apagones generalizados ese día o en los 30 siguientes.",
   "coeficientes": {
-   "a": 506.00360985590737,
-   "b_cota": -0.23004382919689395,
-   "b_ln_q7": -2.4645018399202083,
-   "b_ln_exp30": -2.22205387285859
+   "a": 506.0036875861737,
+   "b_cota": -0.23004387407961943,
+   "b_ln_q7": -2.4644980758540918,
+   "b_ln_exp30": -2.2220531511904347
   },
   "periodos_apagon": [
    {
@@ -72,9 +72,9 @@
   "auc_en_muestra": 0.9817596862071055,
   "precision_cuando_p_mayor_20": 0.7189542483660131,
   "fecha_dato": "2026-11-06",
-  "prob_hoy": 0.288,
-  "cota_hoy": 2127.69,
-  "q7_hoy": 48.41,
+  "prob_hoy": 0.29,
+  "cota_hoy": 2127.67,
+  "q7_hoy": 48.38,
   "exp30_hoy": 34.75,
   "primer_dia_mayor_50": {
    "seco": {
@@ -100,10 +100,10 @@
    "fuente": "https://mazar.ecuanomia.com (data.json)"
   },
   "prob_max_45d": {
-   "seco": 0.9719,
-   "normal": 0.5871,
-   "humedo": 0.3325,
-   "actual": 0.3544
+   "seco": 0.9726,
+   "normal": 0.5955,
+   "humedo": 0.335,
+   "actual": 0.3566
   },
   "limitaciones": [
    "Solo 3 crisis (2023, abril 2024, sep–dic 2024) para aprender: muy pocos eventos, la probabilidad es orientativa.",
@@ -113,17 +113,17 @@
  },
  "estado_actual": {
   "fecha_hidro": "2026-11-06",
-  "cota_mazar": 2127.69,
+  "cota_mazar": 2127.67,
   "cota_critica": 2115.0,
   "cota_min": 2098.0,
   "cota_max": 2153.0,
   "volumen_util_restante_hm3": 141.7,
   "volumen_sobre_2115_hm3": 66.0,
-  "afluente_mazar_dia_m3s": 29.1,
+  "afluente_mazar_dia_m3s": 29.0,
   "afluente_mazar_7d_m3s": 48.4,
   "afluente_mazar_14d_m3s": 44.2,
-  "turbinado_mazar_14d_m3s": 22.7,
-  "tendencia_cota_m_dia_14d": 0.427,
+  "turbinado_mazar_14d_m3s": 23.0,
+  "tendencia_cota_m_dia_14d": 0.426,
   "dias_a_min_por_tendencia": null,
   "dias_a_2115_por_tendencia": null,
   "fecha_cenace": "2026-11-05",
@@ -147,8 +147,8 @@
   "seco": {
    "nombre": "Seco (P10)",
    "desc": "Afluente Mazar = percentil 10 histórico 2022–2026 (±15 d); resto hidro = P10 mensual",
-   "dias_2115": 99,
-   "fecha_2115": "2027-02-14",
+   "dias_2115": 79,
+   "fecha_2115": "2027-01-25",
    "dias_mazar_min": null,
    "fecha_mazar_min": null,
    "dias_deficit": 6,
@@ -226,7 +226,7 @@
   },
   {
    "clave": "k_molino_sopladora",
-   "valor": 237.5805308177858,
+   "valor": 237.57984114338612,
    "unidad": "MWh/día por m3/s",
    "tipo": "ESTIMADO",
    "fuente": "https://generacioncsr.celec.gob.ec/graficasproduccion/ (ORDS generacioncsr.celec.gob.ec:8443/ords/csr)",
@@ -234,7 +234,7 @@
   },
   {
    "clave": "turbinado_mazar_politica",
-   "valor": 22.70869180694258,
+   "valor": 23.00196354623546,
    "unidad": "m3/s",
    "tipo": "SUPUESTO",
    "fuente": "https://generacioncsr.celec.gob.ec/graficasproduccion/ (ORDS generacioncsr.celec.gob.ec:8443/ords/csr)",
@@ -250,7 +250,7 @@
   },
   {
    "clave": "caudal_afluente_mazar_actual",
-   "valor": 44.1842206990735,
+   "valor": 44.17286996741978,
    "unidad": "m3/s",
    "tipo": "DATO",
    "fuente": "https://generacioncsr.celec.gob.ec/graficasproduccion/ (ORDS generacioncsr.celec.gob.ec:8443/ords/csr)",
