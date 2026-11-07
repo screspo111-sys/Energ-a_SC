@@ -2,10 +2,10 @@
  "rotulo": "Estimación propia, no oficial",
  "metodo": "Regresión logística (IRLS, L2 mínima) sobre cota Mazar, ln(afluente media 7 d), ln(mediana histórica del afluente de los 30 días siguientes, ±7 días del día del año). Etiqueta = apagones generalizados ese día o en los 30 siguientes.",
  "coeficientes": {
-  "a": 506.06317630873804,
-  "b_cota": -0.2300569466295901,
-  "b_ln_q7": -2.451604609864246,
-  "b_ln_exp30": -2.2403502272561635
+  "a": 506.00360985590737,
+  "b_cota": -0.23004382919689395,
+  "b_ln_q7": -2.4645018399202083,
+  "b_ln_exp30": -2.22205387285859
  },
  "periodos_apagon": [
   {
@@ -25,24 +25,24 @@
   }
  ],
  "n_dias_apagon": 153,
- "n_entrenamiento": 1736,
+ "n_entrenamiento": 1737,
  "n_positivos": 243,
- "ajuste_hasta": "2026-10-06",
- "auc_en_muestra": 0.981816377663665,
+ "ajuste_hasta": "2026-10-07",
+ "auc_en_muestra": 0.9817596862071055,
  "precision_cuando_p_mayor_20": 0.7189542483660131,
- "fecha_dato": "2026-11-05",
- "prob_hoy": 0.251,
- "cota_hoy": 2127.99,
- "q7_hoy": 51.17,
+ "fecha_dato": "2026-11-06",
+ "prob_hoy": 0.288,
+ "cota_hoy": 2127.69,
+ "q7_hoy": 48.41,
  "exp30_hoy": 34.75,
  "primer_dia_mayor_50": {
   "seco": {
-   "dias": 9,
+   "dias": 8,
    "fecha": "2026-11-15"
   },
   "normal": {
-   "dias": 26,
-   "fecha": "2026-12-02"
+   "dias": 15,
+   "fecha": "2026-11-22"
   },
   "humedo": null,
   "actual": null
@@ -52,17 +52,17 @@
   "fecha": "2026-10-06",
   "cota": 2131.75,
   "q7": 40.43,
-  "exp30": 36.44,
-  "prob_modelo_propio": 0.184,
+  "exp30": 36.49,
+  "prob_modelo_propio": 0.182,
   "prob_coef_ecuanomia_con_nuestros_datos": 0.174,
   "prob_publicada_ecuanomia": 0.21,
   "fuente": "https://mazar.ecuanomia.com (data.json)"
  },
  "prob_max_45d": {
-  "seco": 0.9655,
-  "normal": 0.5108,
-  "humedo": 0.2658,
-  "actual": 0.2948
+  "seco": 0.9719,
+  "normal": 0.5871,
+  "humedo": 0.3325,
+  "actual": 0.3544
  },
  "limitaciones": [
   "Solo 3 crisis (2023, abril 2024, sep–dic 2024) para aprender: muy pocos eventos, la probabilidad es orientativa.",
