@@ -1,17 +1,17 @@
 {
  "rotulo": "Datos públicos; SCADA preliminar de CENACE (sujeto a revisión)",
- "generado": "2026-11-10T04:55-05:00",
+ "generado": "2026-11-10T12:54-05:00",
  "fecha_dia_operativo": "2026-11-08",
  "fuente_diaria": "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm",
- "consultado": "2026-11-10T04:55:00-05:00",
+ "consultado": "2026-11-10T12:54:00-05:00",
  "generacion_MWh": {
   "hidraulica": {
    "MWh": 72694.0,
-   "pct": 71.7
+   "pct": 71.56
   },
   "termica": {
    "MWh": 27674.0,
-   "pct": 27.3,
+   "pct": 27.24,
    "detalle": {
     "combustibles_liquidos_MCI_turbovapor": 25573.0,
     "gas_natural": 2100.0
@@ -50,12 +50,12 @@
     }
    }
   },
-  "importacion": 0.0,
+  "importacion": 202.0,
   "exportacion": 141.0,
-  "produccion_total_incl_importacion": 101382.0
+  "produccion_total_incl_importacion": 101584.0
  },
  "demanda": {
-  "energia_MWh": 101241.0,
+  "energia_MWh": 101443.0,
   "definicion": "Producción total (incluye importación) − exportación",
   "max_MW": 5335.7,
   "hora_max": "20:00",
@@ -64,7 +64,7 @@
  "estatal_vs_privada": {
   "diario": {
    "hidro_CELEC_identificada_MWh": 47512.0,
-   "pct_produccion": 46.86,
+   "pct_produccion": 46.77,
    "centrales": [
     "Coca Codo",
     "Paute",
@@ -233,7 +233,7 @@
    "texto": "CENACE llama «R. no convencional» a eólica, solar, biomasa y biogás; la hidroeléctrica también es renovable pero se reporta aparte.",
    "hoy_MWh": 1015.0,
    "hoy_pct": 1.0,
-   "renovable_total_incl_hidro_pct": 72.7,
+   "renovable_total_incl_hidro_pct": 72.56,
    "fuente": "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm"
   }
  }
