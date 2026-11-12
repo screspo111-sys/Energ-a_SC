@@ -2,10 +2,10 @@
  "rotulo": "Estimación propia, no oficial",
  "metodo": "Regresión logística (IRLS, L2 mínima) sobre cota Mazar, ln(afluente media 7 d), ln(mediana histórica del afluente de los 30 días siguientes, ±7 días del día del año). Etiqueta = apagones generalizados ese día o en los 30 siguientes.",
  "coeficientes": {
-  "a": 502.2653742603123,
-  "b_cota": -0.22845675968678442,
-  "b_ln_q7": -2.5050415851180383,
-  "b_ln_exp30": -2.102633426005399
+  "a": 500.024251174861,
+  "b_cota": -0.2274824088599359,
+  "b_ln_q7": -2.502876763270188,
+  "b_ln_exp30": -2.064535063279679
  },
  "periodos_apagon": [
   {
@@ -25,44 +25,50 @@
   }
  ],
  "n_dias_apagon": 153,
- "n_entrenamiento": 1741,
+ "n_entrenamiento": 1742,
  "n_positivos": 243,
- "ajuste_hasta": "2026-10-11",
- "auc_en_muestra": 0.981322146950392,
- "precision_cuando_p_mayor_20": 0.7133550488599348,
- "fecha_dato": "2026-11-10",
- "prob_hoy": 0.503,
- "cota_hoy": 2126.74,
- "q7_hoy": 35.79,
- "exp30_hoy": 34.14,
+ "ajuste_hasta": "2026-10-12",
+ "auc_en_muestra": 0.9811314538910714,
+ "precision_cuando_p_mayor_20": 0.711038961038961,
+ "fecha_dato": "2026-11-11",
+ "prob_hoy": 0.541,
+ "cota_hoy": 2126.32,
+ "q7_hoy": 34.77,
+ "exp30_hoy": 33.92,
  "primer_dia_mayor_50": {
   "seco": {
-   "dias": 7,
-   "fecha": "2026-11-18"
+   "dias": 0,
+   "fecha": "2026-11-12"
   },
   "normal": {
-   "dias": 14,
-   "fecha": "2026-11-25"
+   "dias": 0,
+   "fecha": "2026-11-12"
   },
-  "humedo": null,
-  "actual": null
+  "humedo": {
+   "dias": 0,
+   "fecha": "2026-11-12"
+  },
+  "actual": {
+   "dias": 0,
+   "fecha": "2026-11-12"
+  }
  },
  "horizonte_dias": 45,
  "validacion_ecuanomia": {
   "fecha": "2026-10-06",
   "cota": 2131.75,
   "q7": 40.43,
-  "exp30": 36.69,
-  "prob_modelo_propio": 0.169,
-  "prob_coef_ecuanomia_con_nuestros_datos": 0.172,
+  "exp30": 36.78,
+  "prob_modelo_propio": 0.166,
+  "prob_coef_ecuanomia_con_nuestros_datos": 0.171,
   "prob_publicada_ecuanomia": 0.21,
   "fuente": "https://mazar.ecuanomia.com (data.json)"
  },
  "prob_max_45d": {
-  "seco": 0.9694,
-  "normal": 0.6396,
-  "humedo": 0.4774,
-  "actual": 0.4774
+  "seco": 0.9727,
+  "normal": 0.6866,
+  "humedo": 0.5154,
+  "actual": 0.5154
  },
  "limitaciones": [
   "Solo 3 crisis (2023, abril 2024, sep–dic 2024) para aprender: muy pocos eventos, la probabilidad es orientativa.",
