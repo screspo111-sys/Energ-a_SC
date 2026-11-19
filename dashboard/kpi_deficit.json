@@ -1,7 +1,7 @@
 {
  "titulo": "Días estimados hasta que Mazar llegue a la cota crítica (2115 m s.n.m.)",
  "rotulo": "Estimación propia, no oficial",
- "generado": "2026-11-19T08:14-05:00",
+ "generado": "2026-11-19T16:39-05:00",
  "escenario_kpi": "actual",
  "dias": 12,
  "fecha": "2026-12-01",
@@ -138,11 +138,11 @@
   "tendencia_cota_m_dia_14d": -0.526,
   "dias_a_min_por_tendencia": 43,
   "dias_a_2115_por_tendencia": 10,
-  "fecha_cenace": "2026-11-17",
-  "demanda_base_MWh_dia": 100110,
-  "termica_actual_MWh_dia": 28116,
+  "fecha_cenace": "2026-11-18",
+  "demanda_base_MWh_dia": 100282,
+  "termica_actual_MWh_dia": 27490,
   "termica_max_supuesta_MWh_dia": 33270,
-  "holgura_termica_MWh_dia": 5154,
+  "holgura_termica_MWh_dia": 5780,
   "demanda_punta_max_MW": 5634.849999999999
  },
  "escenarios": {
@@ -163,8 +163,8 @@
    "fecha_2115": "2026-11-28",
    "dias_mazar_min": 47,
    "fecha_mazar_min": "2027-01-05",
-   "dias_deficit": 2,
-   "fecha_deficit": "2026-11-21"
+   "dias_deficit": 3,
+   "fecha_deficit": "2026-11-22"
   },
   "estiaje_2024": {
    "nombre": "Réplica estiaje 2024",
@@ -173,8 +173,8 @@
    "fecha_2115": "2026-11-29",
    "dias_mazar_min": null,
    "fecha_mazar_min": null,
-   "dias_deficit": 2,
-   "fecha_deficit": "2026-11-21"
+   "dias_deficit": 3,
+   "fecha_deficit": "2026-11-22"
   },
   "normal": {
    "nombre": "Normal (P50)",
@@ -238,7 +238,7 @@
   },
   {
    "clave": "k_molino_sopladora",
-   "valor": 237.68895814797142,
+   "valor": 237.68895565282892,
    "unidad": "MWh/día por m3/s",
    "tipo": "ESTIMADO",
    "fuente": "https://generacioncsr.celec.gob.ec/graficasproduccion/ (ORDS generacioncsr.celec.gob.ec:8443/ords/csr)",
@@ -246,7 +246,7 @@
   },
   {
    "clave": "turbinado_mazar_politica",
-   "valor": 53.20792994346437,
+   "valor": 53.208042651369176,
    "unidad": "m3/s",
    "tipo": "SUPUESTO",
    "fuente": "https://generacioncsr.celec.gob.ec/graficasproduccion/ (ORDS generacioncsr.celec.gob.ec:8443/ords/csr)",
@@ -270,11 +270,11 @@
   },
   {
    "clave": "resto_hidro_actual",
-   "valor": 48438.0,
+   "valor": 50682.0,
    "unidad": "MWh/día",
    "tipo": "DATO",
    "fuente": "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm",
-   "nota": "Hidráulica SNI − Paute − Sopladora − Mazar, día 2026-11-17 (incluye Coca Codo 17028 MWh)"
+   "nota": "Hidráulica SNI − Paute − Sopladora − Mazar, día 2026-11-18 (incluye Coca Codo 18112 MWh)"
   },
   {
    "clave": "resto_hidro_mensual_hist",
@@ -294,11 +294,11 @@
   },
   {
    "clave": "termica_actual",
-   "valor": 28116.0,
+   "valor": 27490.0,
    "unidad": "MWh/día",
    "tipo": "DATO",
    "fuente": "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm",
-   "nota": "día 2026-11-17"
+   "nota": "día 2026-11-18"
   },
   {
    "clave": "importacion_disponible",
@@ -310,7 +310,7 @@
   },
   {
    "clave": "renovable_no_conv",
-   "valor": 563.0,
+   "valor": 417.0,
    "unidad": "MWh/día",
    "tipo": "DATO",
    "fuente": "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm",
@@ -318,7 +318,7 @@
   },
   {
    "clave": "minas_san_francisco",
-   "valor": 1504.0,
+   "valor": 1785.0,
    "unidad": "MWh/día",
    "tipo": "DATO (incluido en resto hidro)",
    "fuente": "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm",
@@ -326,11 +326,11 @@
   },
   {
    "clave": "demanda_base",
-   "valor": 100109.88235294117,
+   "valor": 100282.33333333333,
    "unidad": "MWh/día",
    "tipo": "DATO",
    "fuente": "https://www.cenace.gob.ec/info-operativa/InformacionOperativa.htm",
-   "nota": "Media del mes a la fecha (hasta 2026-11-17), producción − exportación"
+   "nota": "Media del mes a la fecha (hasta 2026-11-18), producción − exportación"
   },
   {
    "clave": "estacionalidad_demanda",
@@ -342,7 +342,7 @@
   },
   {
    "clave": "crecimiento_demanda_anual",
-   "valor": 0.05857769258471346,
+   "valor": 0.06040121646284469,
    "unidad": "fracción/año",
    "tipo": "ESTIMADO",
    "fuente": "CENACE Info Operativa vs indicadores",
